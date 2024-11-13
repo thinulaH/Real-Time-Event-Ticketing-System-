@@ -1,5 +1,4 @@
 package CLI;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
@@ -8,8 +7,6 @@ import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.Logger;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.json.simple.JSONObject;
 
 public class MainCLI {
     private static final Logger logger = Logger.getLogger("");
@@ -100,16 +97,6 @@ public class MainCLI {
             logger.info("Stopping vendor and customer threads...");
         }
     }
-    public static void saveToJson(Map<String, String> data) {
-        ObjectMapper objectMapper = new ObjectMapper();
 
-        try {
-            // Convert the Map into a JSON string and write it to a file
-            objectMapper.writeValue(new File("userInput.json"), data);
-            System.out.println("Data saved successfully to userInput.json");
-        } catch (IOException e) {
-            System.out.println("Error saving data to JSON file: " + e.getMessage());
-        }
-    }
 }
 
