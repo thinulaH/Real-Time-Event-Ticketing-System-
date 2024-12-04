@@ -1,5 +1,8 @@
 package com.Real_Time_Event_Ticketing_System.backend.Services;
 
+import com.Real_Time_Event_Ticketing_System.backend.Database.CustomerDetailsRepository;
+import com.Real_Time_Event_Ticketing_System.backend.Models.CustomerDetails;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.locks.Condition;
@@ -13,15 +16,22 @@ public class TicketPool {
     private final Condition notEmpty = lock.newCondition();
 
     private final Queue<Integer> ticketQueue = new LinkedList<>();
+
+    private CustomerDetailsRepository customerDetailsRepository;
     private final int maxCapacity;
     private int totalTickets;
     private int releaseRate;
     private int retrievalRate;
+    private int eventID;
     private boolean vendorFinished = false;  // Flag to track if vendor finished
 
     public TicketPool(int totalTickets, int maxCapacity) {
         this.totalTickets = totalTickets;
         this.maxCapacity = maxCapacity;
+    }
+
+    public void setCustomerDetailsRepository(CustomerDetailsRepository repository) {
+        this.customerDetailsRepository = repository;
     }
 
     public void addTicket() throws InterruptedException {
@@ -44,14 +54,23 @@ public class TicketPool {
     public void buyTicket() throws InterruptedException {
         lock.lock();
         try {
-            while (ticketQueue.isEmpty() && !vendorFinished) {  // Check if vendor has finished
+            while (ticketQueue.isEmpty() && !vendorFinished) {
                 logger.info("Queue is empty, customer waiting...");
-                notEmpty.await();  // Wait until a ticket is added
+                notEmpty.await();
             }
 
             if (!ticketQueue.isEmpty()) {
                 int ticketID = ticketQueue.remove();
-                logger.info("Removed Ticket " + ticketID+ " available ticket count : " + ticketQueue.size());
+                logger.info("Customer completed a ticket purchase " + ticketID+ " available ticket count : " + ticketQueue.size());
+
+                // Ensure customerDetailsRepository is not null before attempting to save
+                if (customerDetailsRepository != null) {
+                    CustomerDetails customerDetail = new CustomerDetails("Test"+ticketID, "test"+ticketID+"@test.com", "0123456789", eventID, 1);
+                    customerDetailsRepository.save(customerDetail);
+                } else {
+                    logger.warning("customerDetailsRepository is null. Cannot save CustomerDetails.");
+                }
+
                 notFull.signalAll();
             }
         } finally {
@@ -77,6 +96,14 @@ public class TicketPool {
 
     public int getRetrievalRate() {
         return retrievalRate;
+    }
+
+    public int getEventID() {
+        return eventID;
+    }
+
+    public void setEventID(int eventID) {
+        this.eventID = eventID;
     }
 
     public int getTotalTickets() {

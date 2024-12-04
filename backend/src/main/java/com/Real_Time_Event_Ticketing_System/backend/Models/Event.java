@@ -1,7 +1,6 @@
 package com.Real_Time_Event_Ticketing_System.backend.Models;
 
 import jakarta.persistence.*;
-import org.apache.catalina.User;
 import java.time.LocalDateTime;
 
 @Entity
@@ -14,14 +13,34 @@ public class Event {
     private LocalDateTime LocalDateTime;
     private String location;
     private Double price;
+    private int maxTicketsCount;
+    private int availableTicketsCount;
 
-    public Event(String eventName, java.time.LocalDateTime localDateTime, String location, Double price) {
+    public Event(String eventName, java.time.LocalDateTime localDateTime, String location, Double price, int maxTicketsCount) {
+        this.availableTicketsCount = maxTicketsCount;
         this.eventName = eventName;
         LocalDateTime = localDateTime;
         this.location = location;
+        this.maxTicketsCount= maxTicketsCount;
         this.price = price;
     }
     public Event() {}
+
+    public int getMaxTicketsCount() {
+        return maxTicketsCount;
+    }
+
+    public void setMaxTicketsCount(int maxTicketsCount) {
+        this.maxTicketsCount = maxTicketsCount;
+    }
+
+    public int getAvailableTicketsCount() {
+        return availableTicketsCount;
+    }
+
+    public void setAvailableTicketsCount(int availableTicketsCount) {
+        this.availableTicketsCount = availableTicketsCount;
+    }
 
     public Long getEventID() {
         return eventID;
@@ -38,6 +57,7 @@ public class Event {
 
     public void setEventName(String eventName) {
         this.eventName = eventName;
+
     }
 
     public java.time.LocalDateTime getLocalDateTime() {
