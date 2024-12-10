@@ -2,80 +2,83 @@ package com.Real_Time_Event_Ticketing_System.backend.Services;
 
 import com.Real_Time_Event_Ticketing_System.backend.Database.CustomerDetailsRepository;
 import com.Real_Time_Event_Ticketing_System.backend.Models.CustomerDetails;
+import com.Real_Time_Event_Ticketing_System.backend.Models.Ticket;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Logger;
 
+@Service
 public class TicketPool {
     private static final Logger logger = Logger.getLogger("");
     private final ReentrantLock lock = new ReentrantLock();
     private final Condition notFull = lock.newCondition();
     private final Condition notEmpty = lock.newCondition();
 
-    private final Queue<Integer> ticketQueue = new LinkedList<>();
-
+    private final Queue<Ticket> ticketQueue = new LinkedList<>();
     private CustomerDetailsRepository customerDetailsRepository;
-    private final int maxCapacity;
+    private int maximumCapacity;
     private int totalTickets;
     private int releaseRate;
     private int retrievalRate;
-    private int eventID;
-    private boolean vendorFinished = false;  // Flag to track if vendor finished
+    private boolean vendorFinished = false; // Flag to track if vendor finished
 
-    public TicketPool(int totalTickets, int maxCapacity) {
+    public TicketPool() {
+        // Default initialization
+        this.totalTickets = 100;
+        this.maximumCapacity = 50;
+    }
+
+    public TicketPool(int totalTickets, int maximumCapacity) {
         this.totalTickets = totalTickets;
-        this.maxCapacity = maxCapacity;
+        this.maximumCapacity = maximumCapacity;
     }
 
-    public void setCustomerDetailsRepository(CustomerDetailsRepository repository) {
-        this.customerDetailsRepository = repository;
-    }
+    public synchronized void addTicket(Ticket ticket) throws InterruptedException {
 
-    public void addTicket() throws InterruptedException {
         lock.lock();
         try {
-            if (totalTickets > 0) { // Only add tickets if there are still tickets to add
+            while (ticketQueue.size() >= maximumCapacity) {
+                logger.info("Queue is full. Vendor waiting...");
+                notFull.await();
+            }
+            if (totalTickets > 0) {
                 int ticketID = totalTickets--;
-                ticketQueue.add(ticketID);
-                logger.info("Added Ticket " + ticketID+ " available ticket count : " + ticketQueue.size());
+                ticket.setID(ticketID);
+                ticketQueue.add(ticket);
+                logger.info("Added Ticket{id=" + ticketID + "}. Available ticket count: " + ticketQueue.size());
                 notEmpty.signalAll();
             } else {
                 logger.info("No more tickets to add.");
-                vendorFinished = true; // Vendor finished adding tickets
+                vendorFinished = true;
             }
         } finally {
             lock.unlock();
         }
     }
 
-    public void buyTicket() throws InterruptedException {
+    public synchronized Integer removeTicket() throws InterruptedException {
         lock.lock();
         try {
             while (ticketQueue.isEmpty() && !vendorFinished) {
                 logger.info("Queue is empty, customer waiting...");
-                notEmpty.await();
+                notEmpty.await(); // Customer is waiting for a ticket to be available
             }
-
             if (!ticketQueue.isEmpty()) {
-                int ticketID = ticketQueue.remove();
-                logger.info("Customer completed a ticket purchase " + ticketID+ " available ticket count : " + ticketQueue.size());
-
-                // Ensure customerDetailsRepository is not null before attempting to save
-                if (customerDetailsRepository != null) {
-                    CustomerDetails customerDetail = new CustomerDetails("Test"+ticketID, "test"+ticketID+"@test.com", "0123456789", eventID, 1);
-                    customerDetailsRepository.save(customerDetail);
-                } else {
-                    logger.warning("customerDetailsRepository is null. Cannot save CustomerDetails.");
-                }
-
+                Ticket ticket = ticketQueue.remove();
+                logger.info("Removed ticket: " + ticket.getID());
                 notFull.signalAll();
+                return ticket.getID();
             }
         } finally {
             lock.unlock();
         }
+        return null;  // Return null if no ticket was removed
     }
 
     public boolean isVendorFinished() {
@@ -90,6 +93,10 @@ public class TicketPool {
         this.retrievalRate = rate;
     }
 
+    public void setMaximumCapacity(int maximumCapacity) {
+        this.maximumCapacity = maximumCapacity;
+    }
+
     public int getReleaseRate() {
         return releaseRate;
     }
@@ -98,27 +105,44 @@ public class TicketPool {
         return retrievalRate;
     }
 
-    public int getEventID() {
-        return eventID;
-    }
-
-    public void setEventID(int eventID) {
-        this.eventID = eventID;
-    }
-
     public int getTotalTickets() {
         return totalTickets;
     }
 
-    public Queue<Integer> getTicketQueue() {
+    public Queue<Ticket> getTicketQueue() {
         return ticketQueue;
     }
 
-    public int getMaxCapacity() {
-        return maxCapacity;
+    public int getMaximumCapacity() {
+        return maximumCapacity;
     }
 
     public void setVendorFinished(boolean vendorFinished) {
         this.vendorFinished = vendorFinished;
+    }
+
+    public void setTotalTickets(int totalTickets) {
+        this.totalTickets = totalTickets;
+    }
+
+    public Integer getTicket() throws InterruptedException {
+        lock.lock();
+        try {
+//            while (ticketQueue.isEmpty() && !vendorFinished) {
+//                logger.info("Queue is empty, customer waiting...");
+//                notEmpty.await(); // Use the condition to wait
+//            }
+
+            if (!ticketQueue.isEmpty()) {
+                Ticket ticket = ticketQueue.remove();
+                logger.info("Removed ticket: " + ticket.getID());
+                notFull.signalAll();
+                return ticket.getID();
+            }
+
+            return null;
+        } finally {
+            lock.unlock();
+        }
     }
 }

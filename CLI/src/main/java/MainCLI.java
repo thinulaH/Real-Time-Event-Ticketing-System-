@@ -1,10 +1,3 @@
-package com.Real_Time_Event_Ticketing_System.backend.CLI;
-
-import com.Real_Time_Event_Ticketing_System.backend.BackendApplication;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.boot.SpringApplication;
-import org.springframework.context.ApplicationContext;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
@@ -12,9 +5,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.Logger;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 
 public class MainCLI {
-    ApplicationContext context = SpringApplication.run(BackendApplication.class);
     private static final Logger logger = Logger.getLogger("");
     private static TicketPool ticketPool;
     static boolean isRunning = false;
@@ -22,7 +16,7 @@ public class MainCLI {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Welcome to the Real-Time Event Ticketing System ");
+        System.out.println("Welcome to the Real Time Event Ticketing System ");
         setupConfiguration(input);
 
         while (true) {
@@ -64,20 +58,19 @@ public class MainCLI {
         System.out.print("Enter max ticket capacity: ");
         int maxTicketCapacity = validInput(scanner);
 
-        // Initialize TicketPool directly
+        // making configuration object
+        Configuration configuration = new Configuration(totalTickets, ticketReleaseRate, customerRetrievalRate, maxTicketCapacity);
+        //save configuration file into a json file
+        try{
+            ObjectMapper objectMapper = new ObjectMapper();
+            objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File("Config.json"),configuration);
+        } catch (IOException e) {
+            System.err.println("Error saving configuration file. "+e.getMessage());
+        }
+
         ticketPool = new TicketPool(totalTickets, maxTicketCapacity);
         ticketPool.setReleaseRate(ticketReleaseRate);
         ticketPool.setRetrievalRate(customerRetrievalRate);
-
-        // Save configuration to JSON file
-        Configuration configuration = new Configuration(totalTickets, ticketReleaseRate, customerRetrievalRate, maxTicketCapacity);
-        try {
-            ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File("Config.json"), configuration);
-            System.out.println("Configuration saved successfully.");
-        } catch (IOException e) {
-            System.err.println("Error saving configuration: " + e.getMessage());
-        }
     }
 
     private static int validInput(Scanner scanner) {
@@ -98,7 +91,7 @@ public class MainCLI {
     }
 
     private static void startTicketingOperation() {
-        System.out.println("Starting ticket operations...");
+        System.out.println("Starting ticket Operations...");
         isRunning = true;
         executorService = Executors.newFixedThreadPool(2);
         executorService.execute(new Vendor(ticketPool));
@@ -107,11 +100,12 @@ public class MainCLI {
 
     private static void stopTicketingOperation() {
         if (isRunning) {
-            System.out.println("Stopping ticket operations...");
+            System.out.println("Stopping ticket Operations...");
             isRunning = false;  // Signal to stop
             executorService.shutdownNow(); // Immediately shutdown the executor service
             logger.info("Stopping vendor and customer threads...");
         }
     }
+
 }
 

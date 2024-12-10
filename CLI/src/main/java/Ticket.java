@@ -1,5 +1,3 @@
-package com.Real_Time_Event_Ticketing_System.backend.CLI;
-
 public class Ticket {
     private int id;
     private String eventName;

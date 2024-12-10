@@ -1,5 +1,3 @@
-package com.Real_Time_Event_Ticketing_System.backend.CLI;
-
 import java.util.logging.Logger;
 
 public class Customer implements Runnable {

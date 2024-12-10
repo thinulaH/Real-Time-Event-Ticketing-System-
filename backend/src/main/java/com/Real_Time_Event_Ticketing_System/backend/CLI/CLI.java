@@ -21,12 +21,13 @@ import java.util.Scanner;
 
 import java.util.concurrent.locks.ReentrantLock;
 
+import static com.Real_Time_Event_Ticketing_System.backend.Services.EventConfigurationManager.isRunning;
+
 @Component
-public class CLI implements CommandLineRunner {
+public class CLI {
     private static final Logger logger = Logger.getLogger("");
     private final CustomerDetailsRepository customerDetailsRepository;
     private TicketPool ticketPool;
-    public static boolean isRunning = false;
     private static ExecutorService executorService;
 
     private final EventRepository eventRepository;
@@ -41,7 +42,7 @@ public class CLI implements CommandLineRunner {
         this.customerDetailsRepository = customerDetailsRepository;
     }
 
-    @Override
+
     public void run(String... args) throws Exception {
         if (args.length > 0) {
             String command = args[0];
@@ -60,10 +61,10 @@ public class CLI implements CommandLineRunner {
                 case "updateEvent":
                     updateEvent();
                     break;
-                case "systemConfiguration":
-                    systemConfiguration(input);
-                    runConfiguration();
-                    break;
+//                case "systemConfiguration":
+//                    systemConfiguration(input);
+//                    runConfiguration();
+//                    break;
                 default:
                     logger.warning("Invalid command: " + command);
             }
@@ -102,60 +103,60 @@ public class CLI implements CommandLineRunner {
 
     }
 
-    private void runConfiguration() {
-        while (true) {
-            System.out.println("Select an option: \n\t1 - Start\n\t2 - Stop\n\t3 - Exit");
-            String option = input.next();
+//    private void runConfiguration() {
+//        while (true) {
+//            System.out.println("Select an option: \n\t1 - Start\n\t2 - Stop\n\t3 - Exit");
+//            String option = input.next();
+//
+//            switch (option) {
+//                case "1":
+//                    if (!isRunning) {
+//                        //startTicketingOperation();
+//                    } else {
+//                        System.out.println("System is already running.");
+//                    }
+//                    break;
+//                case "2":
+//                    if (isRunning) {
+//                        //stopTicketingOperation();
+//                    } else {
+//                        System.out.println("Operations are not running.");
+//                    }
+//                    break;
+//                case "3":
+//                    //stopTicketingOperation();
+//                    System.out.println("Exiting program...");
+//                    System.exit(0);
+//                default:
+//                    System.out.println("Invalid option. Please try again.");
+//            }
+//        }
+//    }
 
-            switch (option) {
-                case "1":
-                    if (!isRunning) {
-                        startTicketingOperation();
-                    } else {
-                        System.out.println("System is already running.");
-                    }
-                    break;
-                case "2":
-                    if (isRunning) {
-                        stopTicketingOperation();
-                    } else {
-                        System.out.println("Operations are not running.");
-                    }
-                    break;
-                case "3":
-                    stopTicketingOperation();
-                    System.out.println("Exiting program...");
-                    System.exit(0);
-                default:
-                    System.out.println("Invalid option. Please try again.");
-            }
-        }
-    }
-
-    private void systemConfiguration(Scanner scanner) {
-        System.out.println("Enter event ID: ");
-        int eventID = validInput(scanner);
-        System.out.print("Enter total tickets: ");
-        int totalTickets = validInput(scanner);
-        System.out.print("Enter ticket release rate (in seconds): ");
-        int ticketReleaseRate = validInput(scanner);
-        System.out.print("Enter customer retrieval rate (in seconds): ");
-        int customerRetrievalRate = validInput(scanner);
-        System.out.print("Enter max ticket capacity: ");
-        int maxTicketCapacity = validInput(scanner);
-
-        // Locking the configuration block
-        configLock.lock();
-        try {
-            ticketPool = new TicketPool(totalTickets, maxTicketCapacity);  // Initialize ticketPool
-            ticketPool.setReleaseRate(ticketReleaseRate);
-            ticketPool.setEventID(eventID);
-            ticketPool.setRetrievalRate(customerRetrievalRate);
-            ticketPool.setCustomerDetailsRepository(customerDetailsRepository);
-        } finally {
-            configLock.unlock();  // Unlock once configuration is done
-        }
-    }
+//    private void systemConfiguration(Scanner scanner) {
+//        System.out.println("Enter event ID: ");
+//        int eventID = validInput(scanner);
+//        System.out.print("Enter total tickets: ");
+//        int totalTickets = validInput(scanner);
+//        System.out.print("Enter ticket release rate (in seconds): ");
+//        int ticketReleaseRate = validInput(scanner);
+//        System.out.print("Enter customer retrieval rate (in seconds): ");
+//        int customerRetrievalRate = validInput(scanner);
+//        System.out.print("Enter max ticket capacity: ");
+//        int maxTicketCapacity = validInput(scanner);
+//
+//        // Locking the configuration block
+//        configLock.lock();
+//        try {
+//            ticketPool = new TicketPool(totalTickets, maxTicketCapacity);  // Initialize ticketPool
+//            ticketPool.setReleaseRate(ticketReleaseRate);
+//            ticketPool.setEventID(eventID);
+//            ticketPool.setRetrievalRate(customerRetrievalRate);
+//            ticketPool.setCustomerDetailsRepository(customerDetailsRepository);
+//        } finally {
+//            configLock.unlock();  // Unlock once configuration is done
+//        }
+//    }
     private static int validInput(Scanner scanner) {
         int input;
         while (true) {
@@ -194,22 +195,22 @@ public class CLI implements CommandLineRunner {
 //        return input;
 //    }
 
-    private void startTicketingOperation() {
-        System.out.println("Starting ticket Operations...");
-        isRunning = true;
-        executorService = Executors.newFixedThreadPool(2);
-        executorService.execute(new Vendor(ticketPool));
-        executorService.execute(new Customer(ticketPool));
-    }
-
-    private void stopTicketingOperation() {
-        if (isRunning) {
-            System.out.println("Stopping ticket Operations...");
-            isRunning = false;  // Signal to stop
-            executorService.shutdownNow(); // Immediately shutdown the executor service
-            logger.info("Stopping vendor and customer threads...");
-        }
-    }
+//    private void startTicketingOperation() {
+//        System.out.println("Starting ticket Operations...");
+//        isRunning = true;
+//        executorService = Executors.newFixedThreadPool(2);
+//        executorService.execute(new Vendor(ticketPool));
+//        executorService.execute(new Customer(ticketPool));
+//    }
+//
+//    private void stopTicketingOperation() {
+//        if (isRunning) {
+//            System.out.println("Stopping ticket Operations...");
+//            isRunning = false;  // Signal to stop
+//            executorService.shutdownNow(); // Immediately shutdown the executor service
+//            logger.info("Stopping vendor and customer threads...");
+//        }
+//    }
 
     private void deleteEvent() {
         System.out.print("Enter event ID to delete: ");

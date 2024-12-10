@@ -1,33 +1,41 @@
 package com.Real_Time_Event_Ticketing_System.backend.Models;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Table(name = "customer_details")
 public class CustomerDetails {
-    private @Id @GeneratedValue Long id;
+    @Id
+    private Integer id;  // Change from int to Integer
+
+    @Column(name = "ticket_id")
+    private Integer ticketId;  // Explicitly map ticket ID
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "email")
     private String email;
+
+    @Column(name = "phone_no")
     private String phoneNo;
-    private int eventNo;
-    public int ticketCount;
+
 
     public CustomerDetails() {}
-
-    public CustomerDetails(String name, String email, String phoneNo, int eventNo, int ticketCount) {
+    public CustomerDetails(Integer ticketId, String name, String email, String phoneNo) {
+        this.id = ticketId;
         this.name = name;
         this.email = email;
         this.phoneNo = phoneNo;
-        this.eventNo = eventNo;
-        this.ticketCount = ticketCount;
     }
 
-    public Long getId() {
+
+
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -55,19 +63,5 @@ public class CustomerDetails {
         this.phoneNo = phoneNo;
     }
 
-    public int getEventNo() {
-        return eventNo;
-    }
 
-    public void setEventNo(int eventNo) {
-        this.eventNo = eventNo;
-    }
-
-    public int getTicketCount() {
-        return ticketCount;
-    }
-
-    public void setTicketCount(int ticketCount) {
-        this.ticketCount = ticketCount;
-    }
 }
