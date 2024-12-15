@@ -6,10 +6,10 @@ import jakarta.persistence.*;
 @Table(name = "customer_details")
 public class CustomerDetails {
     @Id
-    private Integer id;  // Change from int to Integer
+    private Integer id;
 
-    @Column(name = "ticket_id")
-    private Integer ticketId;  // Explicitly map ticket ID
+    @Column (name = "time")
+    String time;
 
     @Column(name = "name")
     private String name;
@@ -22,11 +22,12 @@ public class CustomerDetails {
 
 
     public CustomerDetails() {}
-    public CustomerDetails(Integer ticketId, String name, String email, String phoneNo) {
+    public CustomerDetails(Integer ticketId, String name, String email, String phoneNo, String time) {
         this.id = ticketId;
         this.name = name;
         this.email = email;
         this.phoneNo = phoneNo;
+        this.time =time;
     }
 
 
@@ -63,5 +64,11 @@ public class CustomerDetails {
         this.phoneNo = phoneNo;
     }
 
+    public String getTime() {
+        return time;
+    }
 
+    public void setTime(String time) {
+        this.time = time;
+    }
 }

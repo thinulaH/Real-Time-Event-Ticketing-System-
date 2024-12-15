@@ -1,0 +1,892 @@
+Dec 12, 2024 4:31:04 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:04 AM com.Real_Time_Event_Ticketing_System.backend.Services.EventConfigurationManager startSystem
+INFO: System started successfully!
+Dec 12, 2024 4:31:04 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:04 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 4:31:04 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:31:05 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:05 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 1
+Dec 12, 2024 4:31:06 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:06 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 2
+Dec 12, 2024 4:31:07 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:07 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 3
+Dec 12, 2024 4:31:08 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:08 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 4
+Dec 12, 2024 4:31:08 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:08 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 4:31:09 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:09 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 4
+Dec 12, 2024 4:31:10 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:10 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 7 added successfully. Available ticket count: 5
+Dec 12, 2024 4:31:11 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:11 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 8 added successfully. Available ticket count: 6
+Dec 12, 2024 4:31:12 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:12 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 9 added successfully. Available ticket count: 7
+Dec 12, 2024 4:31:12 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:12 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 6
+Dec 12, 2024 4:31:13 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:13 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 10 added successfully. Available ticket count: 7
+Dec 12, 2024 4:31:14 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:14 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 11 added successfully. Available ticket count: 8
+Dec 12, 2024 4:31:15 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:15 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:31:16 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:16 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 7
+Dec 12, 2024 4:31:16 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 12 added successfully. Available ticket count: 8
+Dec 12, 2024 4:31:17 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:17 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:31:20 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:20 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 7
+Dec 12, 2024 4:31:20 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 13 added successfully. Available ticket count: 8
+Dec 12, 2024 4:31:21 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:21 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:31:24 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:24 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 7
+Dec 12, 2024 4:31:24 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 14 added successfully. Available ticket count: 8
+Dec 12, 2024 4:31:25 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:25 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:31:28 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:28 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 7 bought successfully. Remaining ticket count: 7
+Dec 12, 2024 4:31:28 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 15 added successfully. Available ticket count: 8
+Dec 12, 2024 4:31:29 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:29 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:31:32 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:32 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 8 bought successfully. Remaining ticket count: 7
+Dec 12, 2024 4:31:32 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 16 added successfully. Available ticket count: 8
+Dec 12, 2024 4:31:33 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:33 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:31:36 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:36 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 9 bought successfully. Remaining ticket count: 7
+Dec 12, 2024 4:31:36 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 17 added successfully. Available ticket count: 8
+Dec 12, 2024 4:31:37 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:37 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:31:40 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:40 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 10 bought successfully. Remaining ticket count: 7
+Dec 12, 2024 4:31:40 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 18 added successfully. Available ticket count: 8
+Dec 12, 2024 4:31:41 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:41 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:31:44 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:44 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 11 bought successfully. Remaining ticket count: 7
+Dec 12, 2024 4:31:44 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 19 added successfully. Available ticket count: 8
+Dec 12, 2024 4:31:45 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:45 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:31:48 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:48 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 12 bought successfully. Remaining ticket count: 7
+Dec 12, 2024 4:31:48 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 20 added successfully. Available ticket count: 8
+Dec 12, 2024 4:31:49 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:31:49 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:31:52 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:52 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 13 bought successfully. Remaining ticket count: 7
+Dec 12, 2024 4:31:52 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 4:31:56 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:31:56 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 14 bought successfully. Remaining ticket count: 6
+Dec 12, 2024 4:32:00 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:32:00 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 15 bought successfully. Remaining ticket count: 5
+Dec 12, 2024 4:32:03 AM com.Real_Time_Event_Ticketing_System.backend.Controllers.CustomerDetailsController saveTicket
+INFO: Received request to save ticket for: Thinula Harischandra
+Dec 12, 2024 4:32:03 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool getTicket
+INFO: Ticket retrieved successfully: 16. Remaining tickets: 4
+Dec 12, 2024 4:32:04 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:32:04 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 17 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 4:32:08 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:32:08 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 18 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 4:32:12 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:32:12 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 19 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 4:32:16 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:32:16 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 20 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:32:20 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 4:53:31 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:31 AM com.Real_Time_Event_Ticketing_System.backend.Services.EventConfigurationManager startSystem
+INFO: System started successfully!
+Dec 12, 2024 4:53:31 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:53:31 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 4:53:31 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:53:32 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:32 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 1
+Dec 12, 2024 4:53:33 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:33 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 2
+Dec 12, 2024 4:53:34 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:34 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 3
+Dec 12, 2024 4:53:34 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:53:34 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 4:53:35 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:35 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 3
+Dec 12, 2024 4:53:36 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:36 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 4
+Dec 12, 2024 4:53:37 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:37 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 7 added successfully. Available ticket count: 5
+Dec 12, 2024 4:53:37 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:53:37 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:53:38 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:38 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 8 added successfully. Available ticket count: 5
+Dec 12, 2024 4:53:39 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:39 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:53:41 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:53:41 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:53:41 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 9 added successfully. Available ticket count: 5
+Dec 12, 2024 4:53:42 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:42 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:53:44 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:53:44 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:53:44 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 10 added successfully. Available ticket count: 5
+Dec 12, 2024 4:53:45 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:45 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:53:47 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:53:47 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:53:47 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 11 added successfully. Available ticket count: 5
+Dec 12, 2024 4:53:48 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:48 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:53:50 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:53:50 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 7 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:53:50 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 12 added successfully. Available ticket count: 5
+Dec 12, 2024 4:53:51 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:51 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:53:53 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:53:53 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 8 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:53:53 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 13 added successfully. Available ticket count: 5
+Dec 12, 2024 4:53:54 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:54 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:53:56 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:53:56 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 9 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:53:56 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 14 added successfully. Available ticket count: 5
+Dec 12, 2024 4:53:57 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:53:57 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:53:59 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:53:59 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 10 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:53:59 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 15 added successfully. Available ticket count: 5
+Dec 12, 2024 4:54:00 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:54:00 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:54:02 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:54:02 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 11 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:54:02 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 16 added successfully. Available ticket count: 5
+Dec 12, 2024 4:54:03 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:54:03 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:54:05 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:54:05 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 12 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:54:05 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 17 added successfully. Available ticket count: 5
+Dec 12, 2024 4:54:06 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:54:06 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:54:08 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:54:08 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 13 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:54:08 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 18 added successfully. Available ticket count: 5
+Dec 12, 2024 4:54:09 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:54:09 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:54:11 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:54:11 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 14 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:54:11 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 19 added successfully. Available ticket count: 5
+Dec 12, 2024 4:54:12 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:54:12 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:54:14 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:54:14 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 15 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:54:14 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 20 added successfully. Available ticket count: 5
+Dec 12, 2024 4:54:15 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 4:54:15 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:54:17 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:54:17 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 16 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 4:54:17 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 4:54:20 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:54:20 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 17 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 4:54:21 AM com.Real_Time_Event_Ticketing_System.backend.Controllers.CustomerDetailsController saveTicket
+INFO: Received request to save ticket for: Thinula Harischandra
+Dec 12, 2024 4:54:21 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool getTicket
+INFO: Ticket retrieved successfully: 18. Remaining tickets: 2
+Dec 12, 2024 4:54:23 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:54:23 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 19 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 4:54:26 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 4:54:26 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 20 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:54:29 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 5:03:53 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:03:53 AM com.Real_Time_Event_Ticketing_System.backend.Services.EventConfigurationManager startSystem
+INFO: System started successfully!
+Dec 12, 2024 5:03:53 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:03:53 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 5:03:53 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 5:03:54 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:03:54 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 1
+Dec 12, 2024 5:03:55 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:03:55 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 2
+Dec 12, 2024 5:03:55 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:03:55 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 5:03:56 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:03:56 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 2
+Dec 12, 2024 5:03:57 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:03:57 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 3
+Dec 12, 2024 5:03:57 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:03:57 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 5:03:58 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:03:58 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 3
+Dec 12, 2024 5:03:59 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:03:59 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 7 added successfully. Available ticket count: 4
+Dec 12, 2024 5:03:59 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:03:59 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 5:04:00 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:00 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 8 added successfully. Available ticket count: 4
+Dec 12, 2024 5:04:01 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:01 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 9 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:01 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:01 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:02 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:02 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 10 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:03 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:03 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:03 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:03 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:03 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 11 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:04 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:04 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:05 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:05 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 7 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:05 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 12 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:06 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:06 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:07 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:07 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 8 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:07 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 13 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:08 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:08 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:09 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:09 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 9 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:09 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 14 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:10 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:10 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:11 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:11 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 10 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:11 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 15 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:12 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:12 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:13 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:13 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 11 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:13 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 16 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:14 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:14 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:15 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:15 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 12 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:15 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 17 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:16 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:16 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:17 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:17 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 13 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:17 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 18 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:18 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:18 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:19 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:19 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 14 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:19 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 19 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:20 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:20 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:21 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:21 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 15 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:21 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 20 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:22 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:22 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:23 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:23 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 16 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:23 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 21 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:24 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:24 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:25 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:25 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 17 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:25 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 22 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:26 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:26 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:27 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:27 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 18 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:27 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 23 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:28 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:28 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:29 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:29 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 19 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:29 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 24 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:30 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:30 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:31 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:31 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 20 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:31 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 25 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:32 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:32 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:33 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:33 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 21 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:33 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 26 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:34 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:34 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:35 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:35 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 22 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:35 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 27 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:36 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:36 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:37 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:37 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 23 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:37 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 28 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:38 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:38 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:39 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:39 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 24 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:39 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 29 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:40 AM com.Real_Time_Event_Ticketing_System.backend.Controllers.CustomerDetailsController saveTicket
+INFO: Received request to save ticket for: Jayindu
+Dec 12, 2024 5:04:40 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool getTicket
+INFO: Ticket retrieved successfully: 25. Remaining tickets: 4
+Dec 12, 2024 5:04:40 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:40 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 30 added successfully. Available ticket count: 5
+Dec 12, 2024 5:04:41 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 5:04:41 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 5:04:41 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:41 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 26 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 5:04:41 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 5:04:43 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:43 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 27 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 5:04:45 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:45 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 28 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 5:04:47 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:47 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 29 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 5:04:49 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 5:04:49 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 30 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 5:04:51 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 12:12:00 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:12:00 PM com.Real_Time_Event_Ticketing_System.backend.Services.EventConfigurationManager startSystem
+INFO: System started successfully!
+Dec 12, 2024 12:12:00 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 12:12:00 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 12:12:00 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:12:01 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:12:01 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 1
+Dec 12, 2024 12:12:01 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 12:12:01 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:12:02 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:12:02 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 12:12:02 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 12:12:02 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:12:03 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:12:03 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 1
+Dec 12, 2024 12:12:03 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 12:12:03 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:12:04 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:12:04 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 1
+Dec 12, 2024 12:12:04 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 12:12:04 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:12:05 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:12:05 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 12:12:05 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 12:15:27 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:15:27 PM com.Real_Time_Event_Ticketing_System.backend.Services.EventConfigurationManager startSystem
+INFO: System started successfully!
+Dec 12, 2024 12:15:27 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 12:15:27 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 12:15:27 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:15:28 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:15:28 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 1
+Dec 12, 2024 12:15:29 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:15:29 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 12:15:38 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 12:15:38 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:15:38 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 12:15:39 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:15:39 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 12:15:42 PM com.Real_Time_Event_Ticketing_System.backend.Controllers.CustomerDetailsController saveTicket
+INFO: Received request to save ticket for: Thinula
+Dec 12, 2024 12:15:42 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool getTicket
+INFO: Ticket retrieved successfully: 3. Remaining tickets: 0
+Dec 12, 2024 12:15:42 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 1
+Dec 12, 2024 12:15:43 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:15:43 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 12:15:49 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 12:15:49 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:15:49 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 1
+Dec 12, 2024 12:15:50 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:15:50 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 12:16:00 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 12:16:00 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:16:00 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 1
+Dec 12, 2024 12:16:01 PM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 12, 2024 12:16:01 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 12:16:11 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 12, 2024 12:16:11 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:16:11 PM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 12:16:22 PM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 13, 2024 9:29:47 AM com.Real_Time_Event_Ticketing_System.backend.Services.EventConfigurationManager stopTicketingOperation
+INFO: Stopping vendor and customer threads...
+Dec 13, 2024 9:29:47 AM com.Real_Time_Event_Ticketing_System.backend.Services.EventConfigurationManager stopSystem
+INFO: System stopped successfully.
+Dec 13, 2024 9:29:48 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 13, 2024 9:29:48 AM com.Real_Time_Event_Ticketing_System.backend.Services.EventConfigurationManager startSystem
+INFO: System started successfully!
+Dec 13, 2024 9:29:48 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 13, 2024 9:29:48 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 13, 2024 9:29:48 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 0
+Dec 13, 2024 9:29:49 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 13, 2024 9:29:49 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 1
+Dec 13, 2024 9:29:50 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 13, 2024 9:29:50 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 13, 2024 9:29:59 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 13, 2024 9:29:59 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 13, 2024 9:29:59 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 13, 2024 9:30:00 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 13, 2024 9:30:00 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 13, 2024 9:30:10 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 13, 2024 9:30:10 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 0
+Dec 13, 2024 9:30:10 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 1
+Dec 13, 2024 9:30:11 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 13, 2024 9:30:11 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 13, 2024 9:30:21 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 13, 2024 9:30:21 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 0
+Dec 13, 2024 9:30:21 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 1
+Dec 13, 2024 9:30:22 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 13, 2024 9:30:22 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 13, 2024 9:30:32 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 13, 2024 9:30:32 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 0
+Dec 13, 2024 9:30:32 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 1
+Dec 13, 2024 9:30:33 AM com.Real_Time_Event_Ticketing_System.backend.Vendor run
+INFO: Vendor adding ticket...
+Dec 13, 2024 9:30:33 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 13, 2024 9:30:43 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: Customer removing ticket...
+Dec 13, 2024 9:30:43 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 0
+Dec 13, 2024 9:30:43 AM com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool addTicket
+INFO: No more tickets to add.
+Dec 13, 2024 9:30:54 AM com.Real_Time_Event_Ticketing_System.backend.Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 13, 2024 9:43:07 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Dec 13, 2024 9:43:07 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
+Dec 13, 2024 9:43:07 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [ROOT] appears to have started a thread named [pool-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+ java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+ java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+ java.base/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+Dec 13, 2024 9:43:07 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [ROOT] appears to have started a thread named [pool-2-thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+ java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+ java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+ java.base/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+Dec 13, 2024 9:43:08 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Dec 13, 2024 9:43:08 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/10.1.31]
+Dec 13, 2024 9:43:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Dec 13, 2024 9:43:08 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]

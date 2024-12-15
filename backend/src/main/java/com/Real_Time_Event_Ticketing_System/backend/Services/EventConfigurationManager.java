@@ -94,10 +94,7 @@ public class EventConfigurationManager {
         }
     }
 
-    // Method to handle interactive configuration options
-    public void runConfiguration() {
-        // You can implement the CLI logic here for starting, stopping, and exiting operations
-    }
+
 
     // Additional getters for system status
     public boolean isSystemStarted() {

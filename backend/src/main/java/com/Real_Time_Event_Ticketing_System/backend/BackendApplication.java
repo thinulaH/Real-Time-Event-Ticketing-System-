@@ -17,10 +17,7 @@ public class BackendApplication {
 		try {
 			// Get the CLI bean from the Spring context
 			CLI cli = context.getBean(CLI.class);
-
-			// Execute the CLI logic
-			String[] cliArgs = {"startApplication"};
-			cli.run(cliArgs);
+			cli.run();
 
 		} catch (Exception e) {
 			e.printStackTrace();

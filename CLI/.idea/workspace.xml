@@ -5,26 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="569c32f2-ddf7-4fac-9834-ff595d8f074e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Controllers/ConfigurationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Database/SystemConfigurationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Models/SystemConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Models/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Services/EventConfigurationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LoggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Config/LoggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Controllers/EventDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/Config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainCLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TicketPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TicketPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vendor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/BackendApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/CLI/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/CLI/CLI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/CLI/Configuration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/CLI/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/CLI/MainCLI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/CLI/Ticket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/CLI/TicketPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/CLI/Vendor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Controllers/CustomerDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Controllers/CustomerDetailsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Database/EventRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Database/SystemConfigurationRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Models/CustomerDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Models/CustomerDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Models/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Models/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Services/EventConfigurationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Services/EventConfigurationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Services/EventService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Services/TicketPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Services/TicketPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/Vendor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/Real_Time_Event_Ticketing_System/backend/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/ConfigurationForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/CustomerTicketTable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/SystemControls.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/models/SystemConfiguration.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/services/ApiService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/services/ApiService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/vite.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +69,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="UML Use Case" />
+        <option value="UML Sequence" />
       </list>
     </option>
   </component>
@@ -53,6 +89,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.MainCLI.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -63,10 +100,15 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -94,6 +136,12 @@
       <workItem from="1733282015276" duration="16000" />
       <workItem from="1733566178685" duration="701000" />
       <workItem from="1733605847278" duration="8643000" />
+      <workItem from="1733832661378" duration="21341000" />
+      <workItem from="1733908062716" duration="6718000" />
+      <workItem from="1733952661925" duration="7988000" />
+      <workItem from="1733975339890" duration="6888000" />
+      <workItem from="1733983451768" duration="72000" />
+      <workItem from="1733983611291" duration="1661000" />
     </task>
     <servers />
   </component>

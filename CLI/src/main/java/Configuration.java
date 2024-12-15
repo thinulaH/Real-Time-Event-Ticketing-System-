@@ -10,6 +10,8 @@ public class Configuration {
         this.customerRetrivalRate = customerRetrivalRate;
         this.maxTicketCapacity = maxTicketCapacity;
     }
+    public Configuration() {
+    }
 
     public int getTotalTickets() {
         return totalTickets;

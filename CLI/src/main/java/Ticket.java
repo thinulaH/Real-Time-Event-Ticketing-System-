@@ -1,11 +1,19 @@
 public class Ticket {
     private int id;
-    private String eventName;
+    private String vendorName;
     private int ticketPrice;
+    private String customerName;
 
-    public Ticket(int id, String eventName, int ticketPrice) {
+    public Ticket(int id, String vendorName, int ticketPrice, String customerName) {
         this.id = id;
-        this.eventName = eventName;
+        this.vendorName = vendorName;
+        this.ticketPrice = ticketPrice;
+        this.customerName = customerName;
+    }
+
+    public Ticket(int id, String vendorName, int ticketPrice) {
+        this.id = id;
+        this.vendorName = vendorName;
         this.ticketPrice = ticketPrice;
     }
 
@@ -18,11 +26,11 @@ public class Ticket {
     }
 
     public String getEventName() {
-        return eventName;
+        return vendorName;
     }
 
     public void setEventName(String eventName) {
-        this.eventName = eventName;
+        this.vendorName = eventName;
     }
 
     public int getTicketPrice() {
@@ -33,8 +41,24 @@ public class Ticket {
         this.ticketPrice = ticketPrice;
     }
 
+    public String getVendorName() {
+        return vendorName;
+    }
+
+    public void setVendorName(String vendorName) {
+        this.vendorName = vendorName;
+    }
+
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
+    }
+
     @Override
     public String toString() {
-        return "Ticket [id=" + id + ", eventName=" + eventName + ", ticketPrice=" + ticketPrice + "]";
+        return "Ticket [id=" + getId() + ", vendorName=" + vendorName + ", ticketPrice=" + ticketPrice + "]";
     }
 }

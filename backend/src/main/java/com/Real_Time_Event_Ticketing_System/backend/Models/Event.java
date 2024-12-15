@@ -1,86 +1,50 @@
 package com.Real_Time_Event_Ticketing_System.backend.Models;
 
-import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
-@Entity
 public class Event {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long eventID;
 
-    private String eventName;
-    private LocalDateTime LocalDateTime;
-    private String location;
-    private Double price;
-    private int maxTicketsCount;
-    private int availableTicketsCount;
+    private static String eventName;
+    private static LocalDateTime LocalDateTime;
+    private static String location;
+    private static Double price;
 
-    public Event(String eventName, java.time.LocalDateTime localDateTime, String location, Double price, int maxTicketsCount) {
-        this.availableTicketsCount = maxTicketsCount;
+    public Event(String eventName, java.time.LocalDateTime localDateTime, String location, Double price) {
         this.eventName = eventName;
         LocalDateTime = localDateTime;
         this.location = location;
-        this.maxTicketsCount= maxTicketsCount;
         this.price = price;
     }
-    public Event() {}
 
-    public int getMaxTicketsCount() {
-        return maxTicketsCount;
-    }
-
-    public void setMaxTicketsCount(int maxTicketsCount) {
-        this.maxTicketsCount = maxTicketsCount;
-    }
-
-    public int getAvailableTicketsCount() {
-        return availableTicketsCount;
-    }
-
-    public void setAvailableTicketsCount(int availableTicketsCount) {
-        this.availableTicketsCount = availableTicketsCount;
-    }
-
-    public Long getEventID() {
-        return eventID;
-    }
-
-    public void setEventID(Long eventID) {
-        this.eventID = eventID;
-    }
-
-
-    public String getEventName() {
+    public static String getEventName() {
         return eventName;
     }
 
-    public void setEventName(String eventName) {
-        this.eventName = eventName;
-
+    public static void setEventName(String eventName) {
+        Event.eventName = eventName;
     }
 
-    public java.time.LocalDateTime getLocalDateTime() {
+    public static java.time.LocalDateTime getLocalDateTime() {
         return LocalDateTime;
     }
 
-    public void setLocalDateTime(java.time.LocalDateTime localDateTime) {
+    public static void setLocalDateTime(java.time.LocalDateTime localDateTime) {
         LocalDateTime = localDateTime;
     }
 
-    public String getLocation() {
+    public static String getLocation() {
         return location;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
+    public static void setLocation(String location) {
+        Event.location = location;
     }
 
-    public Double getPrice() {
+    public static Double getPrice() {
         return price;
     }
 
-    public void setPrice(Double price) {
-        this.price = price;
+    public static void setPrice(Double price) {
+        Event.price = price;
     }
 }

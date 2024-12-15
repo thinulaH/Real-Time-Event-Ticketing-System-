@@ -1,19 +1,21 @@
 package com.Real_Time_Event_Ticketing_System.backend;
 
+import com.Real_Time_Event_Ticketing_System.backend.Config.LoggerConfig;
 import com.Real_Time_Event_Ticketing_System.backend.Database.CustomerDetailsRepository;
 import com.Real_Time_Event_Ticketing_System.backend.Models.CustomerDetails;
 import com.Real_Time_Event_Ticketing_System.backend.Models.Ticket;
 import com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool;
-import org.springframework.beans.factory.annotation.Autowired;
 
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.logging.Logger;
 import static com.Real_Time_Event_Ticketing_System.backend.Services.EventConfigurationManager.isRunning;
 
 
 public class Customer implements Runnable {
-    private static final Logger logger = Logger.getLogger("");
-    private final TicketPool ticketPool;
+    private static TicketPool ticketPool;
     private CustomerDetailsRepository customerDetailsRepository;
+    private static final Logger logger = LoggerConfig.getLogger(Customer.class.getName());
 
 
     public Customer(TicketPool ticketPool, CustomerDetailsRepository customerDetailsRepository) {
@@ -31,9 +33,10 @@ public class Customer implements Runnable {
                 }
                 logger.info("Customer removing ticket...");
                 Ticket ticket = ticketPool.getTicketQueue().peek();
-                ticketPool.removeTicket();
+                ticketPool.buyTicket();
 
                 if (customerDetailsRepository != null) {
+                    assert ticket != null;
                     CustomerDetails customerDetail = createcustomerDetails(ticket);
                     customerDetailsRepository.save(customerDetail);
                 } else {
@@ -52,6 +55,7 @@ public class Customer implements Runnable {
         String name = "Customer"+ticket.getID();
         String email = "customer"+ticket.getID()+".email@example.com";
         String phoneNo = "1234567890";
-        return new CustomerDetails(ticket.getID(), name,email, phoneNo);
+        String time = LocalTime.now().format(DateTimeFormatter.ISO_TIME);
+        return new CustomerDetails(ticket.getID(), name,email, phoneNo,time);
     }
 }

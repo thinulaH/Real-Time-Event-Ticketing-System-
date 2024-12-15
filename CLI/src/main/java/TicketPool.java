@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Logger;
 
 public class TicketPool {
-    private static final Logger logger = Logger.getLogger("");
+    private static final Logger logger = LoggerConfig.getLogger(TicketPool.class.getName());
     private final ReentrantLock lock = new ReentrantLock();
     private final Condition notFull = lock.newCondition();
     private final Condition notEmpty = lock.newCondition();
@@ -16,10 +16,12 @@ public class TicketPool {
     private int releaseRate;
     private int retrievalRate;
     private boolean vendorFinished = false; // Flag to track if vendor finished
+    private int remainingTickets;
 
     public TicketPool(int totalTickets, int maximumCapacity) {
         this.totalTickets = totalTickets;
         this.maximumCapacity = maximumCapacity;
+        this.remainingTickets = totalTickets;
     }
 
     public synchronized void addTicket(Ticket ticket) throws InterruptedException {
@@ -29,10 +31,12 @@ public class TicketPool {
                 logger.info("Queue is full. Vendor waiting...");
                 notFull.await(); // Wait until space is available
             }
-            if (totalTickets > 0) { // Only add tickets if there are still tickets to add
-                int ticketID = totalTickets--;
+            if (remainingTickets > 0) { // Only add tickets if there are still tickets to add
+                int ticketID = totalTickets - remainingTickets + 1;
+                remainingTickets--;
+                ticket.setId(ticketID);
                 ticketQueue.add(ticket);
-                logger.info("Added Ticket{id=" + ticketID + "}. Available ticket count: " + ticketQueue.size());
+                logger.info("Ticket " + ticketID + " added successfully. Available ticket count: " + ticketQueue.size());
                 notEmpty.signalAll(); // Notify customers
             } else {
                 logger.info("No more tickets to add.");
@@ -43,7 +47,7 @@ public class TicketPool {
         }
     }
 
-    public void removeTicket() throws InterruptedException {
+    public void buyTicket() throws InterruptedException {
         lock.lock();
         try {
             while (ticketQueue.isEmpty() && !vendorFinished) {
@@ -52,7 +56,7 @@ public class TicketPool {
             }
             if (!ticketQueue.isEmpty()) {
                 Ticket ticket = ticketQueue.remove();
-                logger.info("Removed " + ticket + ". Available ticket count: " + ticketQueue.size());
+                logger.info("Ticket " + ticket.getId() + " bought successfully. Remaining ticket count: " + ticketQueue.size());
                 notFull.signalAll();
             }
         } finally {

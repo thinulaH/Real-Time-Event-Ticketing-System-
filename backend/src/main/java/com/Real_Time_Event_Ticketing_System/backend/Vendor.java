@@ -1,5 +1,6 @@
 package com.Real_Time_Event_Ticketing_System.backend;
 
+import com.Real_Time_Event_Ticketing_System.backend.Config.LoggerConfig;
 import com.Real_Time_Event_Ticketing_System.backend.Models.Ticket;
 import com.Real_Time_Event_Ticketing_System.backend.Services.TicketPool;
 
@@ -8,8 +9,8 @@ import java.util.logging.Logger;
 import static com.Real_Time_Event_Ticketing_System.backend.Services.EventConfigurationManager.isRunning;
 
 public class Vendor implements Runnable {
-    private final TicketPool ticketPool;
-    private static final Logger logger = Logger.getLogger("");
+    private static TicketPool ticketPool;
+    private static final Logger logger = LoggerConfig.getLogger(Vendor.class.getName());
 
     public Vendor(TicketPool ticketPool) {
         this.ticketPool = ticketPool;
@@ -17,20 +18,36 @@ public class Vendor implements Runnable {
 
     @Override
     public void run() {
-        for (int i = 0; i < ticketPool.getTotalTickets(); i++) {
-            try {
-                while (isRunning && !ticketPool.isVendorFinished()) {
-                    logger.info("Vendor adding ticket...");
-                    int price = 2000;
-                    Ticket ticketadd = new Ticket(i, "TestEvent", price);
-                    ticketPool.addTicket(ticketadd); // Add ticket to the pool
-                    Thread.sleep(ticketPool.getReleaseRate() * 1000); // Sleep in seconds (converted to ms)
+        String vendorName = "Vendor";
+        try {
+            while (isRunning && !ticketPool.isVendorFinished()) {
+                // Check if total tickets are exhausted
+                if (ticketPool.getTotalTickets() <= 0) {
+                    ticketPool.setVendorFinished(true);
+                    logger.info(vendorName + " finished adding tickets.");
+                    break;
                 }
-                logger.info("Vendor finished adding tickets.");
-            } catch (InterruptedException e) {
-                logger.info("Vendor interrupted, exiting...");
-                Thread.currentThread().interrupt();
+
+                // Create and add ticket
+                logger.info(vendorName + " adding ticket...");
+                int price = 2000;
+                Ticket ticketAdd = new Ticket(ticketPool.getTotalTickets() - 1);
+
+                // Add ticket with proper error handling
+                try {
+                    ticketPool.addTicket(ticketAdd);
+                } catch (InterruptedException e) {
+                    logger.warning(vendorName + " interrupted while adding ticket");
+                    Thread.currentThread().interrupt();
+                    break;
+                }
+
+                // Sleep between ticket additions
+                Thread.sleep(ticketPool.getReleaseRate() * 1000);
             }
+        } catch (Exception e) {
+            logger.severe(vendorName + " encountered an unexpected error: " + e.getMessage());
+            Thread.currentThread().interrupt();
         }
     }
 }

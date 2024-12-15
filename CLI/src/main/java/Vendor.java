@@ -1,30 +1,34 @@
 import java.util.logging.Logger;
 
-
 public class Vendor implements Runnable {
     private final TicketPool ticketPool;
-    private static final Logger logger = Logger.getLogger("");
+    private String vendorName;
+    private static final Logger logger = LoggerConfig.getLogger(Vendor.class.getName());
 
-    public Vendor(TicketPool ticketPool) {
+    public Vendor(TicketPool ticketPool, String vendorName) {
         this.ticketPool = ticketPool;
+        this.vendorName = vendorName;
     }
 
     @Override
     public void run() {
-        for (int i = 0; i < ticketPool.getTotalTickets(); i++) {
-            try {
-                while (MainCLI.isRunning && !ticketPool.isVendorFinished()) {
-                    logger.info("Vendor adding ticket...");
-                    int price = 2000;
-                    Ticket ticketadd = new Ticket(i, "TestEvent", price);
-                    ticketPool.addTicket(ticketadd); // Add ticket to the pool
-                    Thread.sleep(ticketPool.getReleaseRate() * 1000); // Sleep in seconds (converted to ms)
+        try {
+            while (MainCLI.isRunning && !ticketPool.isVendorFinished()) {
+                if (ticketPool.getTotalTickets() <= 0) {
+                    ticketPool.setVendorFinished(true);
+                    break;
                 }
-                logger.info("Vendor finished adding tickets.");
-            } catch (InterruptedException e) {
-                logger.info("Vendor interrupted, exiting...");
-                Thread.currentThread().interrupt();
+                logger.info(vendorName + " adding ticket...");
+                int price = 2000;
+                Ticket ticketAdd = new Ticket(ticketPool.getTotalTickets() - 1, vendorName, price);
+                ticketPool.addTicket(ticketAdd);
+                Thread.sleep(ticketPool.getReleaseRate() * 1000);
             }
+
+            logger.info(vendorName + " finished adding tickets.");
+        } catch (InterruptedException e) {
+            logger.info(vendorName + " interrupted, exiting...");
+            Thread.currentThread().interrupt();
         }
     }
 }

@@ -3,48 +3,49 @@ package com.Real_Time_Event_Ticketing_System.backend.Models;
 public class Ticket {
         private int id;
         private String eventName;
-        private int ticketPrice;
+        private double ticketPrice;
+        public static Event event ;
 
-        public Ticket(int id, String eventName, int ticketPrice) {
+        public Ticket(int id) {
             this.id = id;
-            this.eventName = eventName;
-            this.ticketPrice = ticketPrice;
+            this.eventName = event.getEventName() ;
+            this.ticketPrice = event.getPrice();
         }
         public Ticket() {
 
         }
 
-    public Ticket(int ticketID) {
-            this.id = ticketID;
+    public static void setEvent(Event event) {
+        Ticket.event = event;
     }
 
     public int getID() {
             return id;
         }
 
-        public void setID(int id) {
-            this.id = id;
-        }
+    public void setID(int id) {
+        this.id = id;
+    }
 
-        public String getEventName() {
-            return eventName;
-        }
+    public String getEventName() {
+        return eventName;
+    }
 
-        public void setEventName(String eventName) {
-            this.eventName = eventName;
-        }
+    public void setEventName(String eventName) {
+        this.eventName = eventName;
+    }
 
-        public int getTicketPrice() {
-            return ticketPrice;
-        }
+    public double getTicketPrice() {
+        return ticketPrice;
+    }
 
-        public void setTicketPrice(int ticketPrice) {
-            this.ticketPrice = ticketPrice;
-        }
+    public void setTicketPrice(int ticketPrice) {
+        this.ticketPrice = ticketPrice;
+    }
 
-        @Override
-        public String toString() {
-            return "Ticket [id=" + id + ", eventName=" + eventName + ", ticketPrice=" + ticketPrice + "]";
-        }
+    @Override
+    public String toString() {
+        return "Ticket [id=" + id + ", eventName=" + eventName + ", ticketPrice=" + ticketPrice + "]";
+    }
 
 }

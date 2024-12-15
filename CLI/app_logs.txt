@@ -1,0 +1,2256 @@
+Dec 12, 2024 4:35:58 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 4:37:17 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 4:45:44 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 4:46:16 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 4:46:23 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 4:47:13 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 4:48:55 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 4:49:34 AM MainCLI setupConfiguration
+INFO: Configuration set up successfully.
+Dec 12, 2024 4:49:44 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 4:49:44 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:49:44 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:49:44 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:49:44 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:49:44 AM TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 4:49:44 AM TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 2
+Dec 12, 2024 4:49:44 AM TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 4:49:44 AM TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:49:45 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:49:45 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:49:45 AM TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 4:49:45 AM TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 2
+Dec 12, 2024 4:49:46 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:49:46 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:49:46 AM TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 4:49:46 AM TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:49:46 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:49:46 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:49:46 AM TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 1
+Dec 12, 2024 4:49:46 AM TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 2
+Dec 12, 2024 4:49:47 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:49:47 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:49:47 AM TicketPool addTicket
+INFO: Ticket 7 added successfully. Available ticket count: 3
+Dec 12, 2024 4:49:47 AM TicketPool addTicket
+INFO: Ticket 8 added successfully. Available ticket count: 4
+Dec 12, 2024 4:49:48 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:49:48 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:49:48 AM TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 4:49:48 AM TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 4:49:48 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:49:48 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:49:48 AM TicketPool addTicket
+INFO: Ticket 9 added successfully. Available ticket count: 3
+Dec 12, 2024 4:49:48 AM TicketPool addTicket
+INFO: Ticket 10 added successfully. Available ticket count: 4
+Dec 12, 2024 4:49:49 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:49:49 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:49:49 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:49:50 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:49:50 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:49:50 AM TicketPool buyTicket
+INFO: Ticket 7 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 4:49:50 AM TicketPool buyTicket
+INFO: Ticket 8 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 4:49:50 AM TicketPool addTicket
+INFO: Ticket 11 added successfully. Available ticket count: 3
+Dec 12, 2024 4:49:50 AM TicketPool addTicket
+INFO: Ticket 12 added successfully. Available ticket count: 4
+Dec 12, 2024 4:49:51 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:49:51 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:49:51 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:49:52 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:49:52 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:49:52 AM TicketPool buyTicket
+INFO: Ticket 9 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 4:49:52 AM TicketPool buyTicket
+INFO: Ticket 10 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 4:49:52 AM TicketPool addTicket
+INFO: Ticket 13 added successfully. Available ticket count: 3
+Dec 12, 2024 4:49:52 AM TicketPool addTicket
+INFO: Ticket 14 added successfully. Available ticket count: 4
+Dec 12, 2024 4:49:53 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:49:53 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:49:53 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:49:54 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:49:54 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:49:54 AM TicketPool buyTicket
+INFO: Ticket 11 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 4:49:54 AM TicketPool buyTicket
+INFO: Ticket 12 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 4:49:54 AM TicketPool addTicket
+INFO: Ticket 15 added successfully. Available ticket count: 3
+Dec 12, 2024 4:49:54 AM TicketPool addTicket
+INFO: Ticket 16 added successfully. Available ticket count: 4
+Dec 12, 2024 4:49:55 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:49:55 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:49:55 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:49:56 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:49:56 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:49:56 AM TicketPool buyTicket
+INFO: Ticket 13 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 4:49:56 AM TicketPool buyTicket
+INFO: Ticket 14 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 4:49:56 AM TicketPool addTicket
+INFO: Ticket 17 added successfully. Available ticket count: 3
+Dec 12, 2024 4:49:56 AM TicketPool addTicket
+INFO: Ticket 18 added successfully. Available ticket count: 4
+Dec 12, 2024 4:49:57 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:49:57 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:49:57 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:49:58 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:49:58 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:49:58 AM TicketPool buyTicket
+INFO: Ticket 15 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 4:49:58 AM TicketPool buyTicket
+INFO: Ticket 16 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 4:49:58 AM TicketPool addTicket
+INFO: Ticket 19 added successfully. Available ticket count: 3
+Dec 12, 2024 4:49:58 AM TicketPool addTicket
+INFO: Ticket 20 added successfully. Available ticket count: 4
+Dec 12, 2024 4:49:59 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:49:59 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:49:59 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 4:50:00 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:50:00 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:50:00 AM TicketPool buyTicket
+INFO: Ticket 17 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 4:50:00 AM TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 4:50:00 AM TicketPool buyTicket
+INFO: Ticket 18 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 4:50:00 AM TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 4:50:01 AM Vendor run
+INFO: Vendor 2 finished adding tickets.
+Dec 12, 2024 4:50:01 AM Vendor run
+INFO: Vendor 1 finished adding tickets.
+Dec 12, 2024 4:50:02 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:50:02 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:50:02 AM TicketPool buyTicket
+INFO: Ticket 19 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 4:50:02 AM TicketPool buyTicket
+INFO: Ticket 20 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:50:04 AM Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 4:50:04 AM Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 4:50:42 AM MainCLI stopTicketingOperation
+INFO: Stopping ticket operations...
+Dec 12, 2024 4:50:42 AM MainCLI stopTicketingOperation
+INFO: Vendor and customer threads stopped.
+Dec 12, 2024 4:50:51 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 4:58:34 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 4:59:08 AM MainCLI setupConfiguration
+INFO: Configuration set up successfully.
+Dec 12, 2024 4:59:22 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 4:59:22 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:59:22 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:59:22 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:59:22 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:59:22 AM TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:22 AM TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 2
+Dec 12, 2024 4:59:22 AM TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 4:59:22 AM TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:23 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:59:23 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:59:23 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:59:23 AM TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:23 AM TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:23 AM TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:23 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:59:23 AM TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:24 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:59:24 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 4:59:24 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:59:24 AM TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:24 AM TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:24 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:59:24 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:59:24 AM TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:24 AM TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:25 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:59:25 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:59:25 AM TicketPool addTicket
+INFO: Ticket 7 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:25 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:59:25 AM TicketPool buyTicket
+INFO: Ticket 7 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:25 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:59:25 AM TicketPool addTicket
+INFO: Ticket 8 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:25 AM TicketPool buyTicket
+INFO: Ticket 8 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:26 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:59:26 AM TicketPool addTicket
+INFO: Ticket 9 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:26 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:59:26 AM TicketPool addTicket
+INFO: Ticket 10 added successfully. Available ticket count: 2
+Dec 12, 2024 4:59:26 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:59:26 AM TicketPool buyTicket
+INFO: Ticket 9 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 4:59:26 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:59:26 AM TicketPool buyTicket
+INFO: Ticket 10 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:27 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:59:27 AM TicketPool addTicket
+INFO: Ticket 11 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:27 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:59:27 AM TicketPool addTicket
+INFO: Ticket 12 added successfully. Available ticket count: 2
+Dec 12, 2024 4:59:27 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:59:27 AM TicketPool buyTicket
+INFO: Ticket 11 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 4:59:27 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:59:27 AM TicketPool buyTicket
+INFO: Ticket 12 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:28 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:59:28 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:59:28 AM TicketPool addTicket
+INFO: Ticket 13 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:28 AM TicketPool addTicket
+INFO: Ticket 14 added successfully. Available ticket count: 2
+Dec 12, 2024 4:59:28 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:59:28 AM TicketPool buyTicket
+INFO: Ticket 13 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 4:59:28 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:59:28 AM TicketPool buyTicket
+INFO: Ticket 14 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:29 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:59:29 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:59:29 AM TicketPool addTicket
+INFO: Ticket 15 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:29 AM TicketPool addTicket
+INFO: Ticket 16 added successfully. Available ticket count: 2
+Dec 12, 2024 4:59:29 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:59:29 AM TicketPool buyTicket
+INFO: Ticket 15 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 4:59:29 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:59:29 AM TicketPool buyTicket
+INFO: Ticket 16 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:30 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:59:30 AM TicketPool addTicket
+INFO: Ticket 17 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:30 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:59:30 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:59:30 AM TicketPool buyTicket
+INFO: Ticket 17 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:30 AM TicketPool addTicket
+INFO: Ticket 18 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:30 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:59:30 AM TicketPool buyTicket
+INFO: Ticket 18 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:31 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:59:31 AM TicketPool addTicket
+INFO: Ticket 19 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:31 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 4:59:31 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 4:59:31 AM TicketPool buyTicket
+INFO: Ticket 19 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:31 AM TicketPool addTicket
+INFO: Ticket 20 added successfully. Available ticket count: 1
+Dec 12, 2024 4:59:31 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 4:59:31 AM TicketPool buyTicket
+INFO: Ticket 20 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 4:59:32 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 4:59:32 AM TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 4:59:32 AM Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 4:59:32 AM Vendor run
+INFO: Vendor 2 finished adding tickets.
+Dec 12, 2024 4:59:32 AM Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 4:59:33 AM Vendor run
+INFO: Vendor 1 finished adding tickets.
+Dec 12, 2024 4:59:57 AM MainCLI stopTicketingOperation
+INFO: Stopping ticket operations...
+Dec 12, 2024 4:59:57 AM MainCLI stopTicketingOperation
+INFO: Vendor and customer threads stopped.
+Dec 12, 2024 5:00:00 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 5:00:05 AM MainCLI main
+INFO: Loading the configuration file...
+Dec 12, 2024 5:00:06 AM MainCLI loadFromJson
+INFO: Configuration loaded successfully from Config.json.
+Dec 12, 2024 10:25:45 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 10:32:45 AM MainCLI setupConfiguration
+INFO: Configuration set up successfully.
+Dec 12, 2024 10:41:59 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 10:42:02 AM MainCLI main
+INFO: Loading the configuration file...
+Dec 12, 2024 10:42:02 AM MainCLI loadFromJson
+INFO: Configuration loaded successfully from Config.json.
+Dec 12, 2024 10:46:09 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 10:46:34 AM MainCLI setupConfiguration
+INFO: Configuration set up successfully.
+Dec 12, 2024 10:52:25 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 10:52:25 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 10:52:25 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 10:52:25 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 10:52:25 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 10:52:25 AM TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 10:52:25 AM TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 2
+Dec 12, 2024 10:52:25 AM TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 10:52:25 AM TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 10:52:26 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 10:52:26 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 10:52:26 AM TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 10:52:26 AM TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 2
+Dec 12, 2024 10:52:27 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 10:52:27 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 10:52:27 AM TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 10:52:27 AM TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 10:52:27 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 10:52:27 AM TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 1
+Dec 12, 2024 10:52:27 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 10:52:27 AM TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 2
+Dec 12, 2024 10:52:28 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 10:52:28 AM TicketPool addTicket
+INFO: Ticket 7 added successfully. Available ticket count: 3
+Dec 12, 2024 10:52:28 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 10:52:28 AM TicketPool addTicket
+INFO: Ticket 8 added successfully. Available ticket count: 4
+Dec 12, 2024 10:52:29 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 10:52:29 AM TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 10:52:29 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 10:52:29 AM TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 10:52:29 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 10:52:29 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 10:52:29 AM TicketPool addTicket
+INFO: Ticket 9 added successfully. Available ticket count: 3
+Dec 12, 2024 10:52:29 AM TicketPool addTicket
+INFO: Ticket 10 added successfully. Available ticket count: 4
+Dec 12, 2024 10:52:30 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 10:52:30 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 10:52:30 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 10:52:31 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 10:52:31 AM TicketPool buyTicket
+INFO: Ticket 7 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 10:52:31 AM TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 10:52:31 AM TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 10:52:31 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 10:52:31 AM TicketPool buyTicket
+INFO: Ticket 8 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 10:52:32 AM Vendor run
+INFO: Vendor 1 finished adding tickets.
+Dec 12, 2024 10:52:32 AM Vendor run
+INFO: Vendor 2 finished adding tickets.
+Dec 12, 2024 10:52:33 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 10:52:33 AM TicketPool buyTicket
+INFO: Ticket 9 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 10:52:33 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 10:52:33 AM TicketPool buyTicket
+INFO: Ticket 10 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 10:52:35 AM Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 10:52:35 AM Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 10:58:08 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 10:58:14 AM MainCLI main
+INFO: Loading the configuration file...
+Dec 12, 2024 10:58:15 AM MainCLI loadFromJson
+INFO: Configuration loaded successfully from Config.json.
+Dec 12, 2024 10:58:17 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 10:58:17 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 10:58:17 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 10:58:17 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 10:58:17 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 10:58:17 AM TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 10:58:17 AM TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 10:58:17 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 10:58:17 AM TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 1
+Dec 12, 2024 10:58:17 AM TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 10:58:17 AM MainCLI stopTicketingOperation
+INFO: Stopping ticket operations...
+Dec 12, 2024 10:58:17 AM MainCLI stopTicketingOperation
+INFO: Vendor and customer threads stopped.
+Dec 12, 2024 10:58:17 AM Customer run
+INFO: Customer interrupted, exiting...
+Dec 12, 2024 10:58:17 AM Customer run
+INFO: Customer interrupted, exiting...
+Dec 12, 2024 10:58:17 AM Vendor run
+INFO: Vendor 2 interrupted, exiting...
+Dec 12, 2024 10:58:17 AM Vendor run
+INFO: Vendor 1 interrupted, exiting...
+Dec 12, 2024 11:01:29 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 11:01:29 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:01:29 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:01:29 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:01:29 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:01:29 AM TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 11:01:29 AM TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:01:29 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:01:29 AM TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 1
+Dec 12, 2024 11:01:29 AM TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:01:30 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:01:30 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:01:30 AM TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 1
+Dec 12, 2024 11:01:30 AM TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 2
+Dec 12, 2024 11:01:31 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:01:31 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:01:31 AM TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:01:31 AM TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:01:31 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:01:31 AM TicketPool addTicket
+INFO: Ticket 7 added successfully. Available ticket count: 1
+Dec 12, 2024 11:01:31 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:01:31 AM TicketPool addTicket
+INFO: Ticket 8 added successfully. Available ticket count: 2
+Dec 12, 2024 11:01:31 AM MainCLI stopTicketingOperation
+INFO: Stopping ticket operations...
+Dec 12, 2024 11:01:31 AM MainCLI stopTicketingOperation
+INFO: Vendor and customer threads stopped.
+Dec 12, 2024 11:01:31 AM Vendor run
+INFO: Vendor 2 interrupted, exiting...
+Dec 12, 2024 11:01:31 AM Vendor run
+INFO: Vendor 1 interrupted, exiting...
+Dec 12, 2024 11:01:31 AM Customer run
+INFO: Customer interrupted, exiting...
+Dec 12, 2024 11:01:31 AM Customer run
+INFO: Customer interrupted, exiting...
+Dec 12, 2024 11:05:34 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:05:51 AM MainCLI setupConfiguration
+INFO: Configuration set up successfully.
+Dec 12, 2024 11:05:53 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 11:05:53 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:05:53 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:05:53 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:05:53 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:05:53 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:05:53 AM TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 11:05:53 AM TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:05:53 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:05:53 AM TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 1
+Dec 12, 2024 11:05:53 AM TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:05:54 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:05:54 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:05:54 AM TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 11:05:54 AM TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 2
+Dec 12, 2024 11:05:55 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:05:55 AM TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 3
+Dec 12, 2024 11:05:55 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:05:55 AM TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 4
+Dec 12, 2024 11:05:56 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:05:56 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:05:56 AM TicketPool addTicket
+INFO: Ticket 7 added successfully. Available ticket count: 5
+Dec 12, 2024 11:05:56 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:05:57 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:05:57 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:05:57 AM TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:05:57 AM TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:05:57 AM TicketPool addTicket
+INFO: Ticket 8 added successfully. Available ticket count: 4
+Dec 12, 2024 11:05:57 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:05:57 AM TicketPool addTicket
+INFO: Ticket 9 added successfully. Available ticket count: 5
+Dec 12, 2024 11:05:58 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:05:58 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:05:58 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:01 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:01 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:01 AM TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:01 AM TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:06:01 AM TicketPool addTicket
+INFO: Ticket 10 added successfully. Available ticket count: 4
+Dec 12, 2024 11:06:01 AM TicketPool addTicket
+INFO: Ticket 11 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:02 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:02 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:02 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:05 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:05 AM TicketPool buyTicket
+INFO: Ticket 7 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:05 AM TicketPool addTicket
+INFO: Ticket 12 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:05 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:05 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:05 AM TicketPool buyTicket
+INFO: Ticket 8 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:05 AM TicketPool addTicket
+INFO: Ticket 13 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:06 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:06 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:06 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:09 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:09 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:09 AM TicketPool buyTicket
+INFO: Ticket 9 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:09 AM TicketPool buyTicket
+INFO: Ticket 10 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:06:09 AM TicketPool addTicket
+INFO: Ticket 14 added successfully. Available ticket count: 4
+Dec 12, 2024 11:06:09 AM TicketPool addTicket
+INFO: Ticket 15 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:10 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:10 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:10 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:13 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:13 AM TicketPool buyTicket
+INFO: Ticket 11 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:13 AM TicketPool addTicket
+INFO: Ticket 16 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:13 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:13 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:13 AM TicketPool buyTicket
+INFO: Ticket 12 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:13 AM TicketPool addTicket
+INFO: Ticket 17 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:14 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:14 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:14 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:17 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:17 AM TicketPool buyTicket
+INFO: Ticket 13 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:17 AM TicketPool addTicket
+INFO: Ticket 18 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:17 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:17 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:17 AM TicketPool buyTicket
+INFO: Ticket 14 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:17 AM TicketPool addTicket
+INFO: Ticket 19 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:18 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:18 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:18 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:21 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:21 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:21 AM TicketPool buyTicket
+INFO: Ticket 15 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:21 AM TicketPool buyTicket
+INFO: Ticket 16 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:06:21 AM TicketPool addTicket
+INFO: Ticket 20 added successfully. Available ticket count: 4
+Dec 12, 2024 11:06:21 AM TicketPool addTicket
+INFO: Ticket 21 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:22 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:22 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:22 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:25 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:25 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:25 AM TicketPool buyTicket
+INFO: Ticket 17 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:25 AM TicketPool buyTicket
+INFO: Ticket 18 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:06:25 AM TicketPool addTicket
+INFO: Ticket 22 added successfully. Available ticket count: 4
+Dec 12, 2024 11:06:25 AM TicketPool addTicket
+INFO: Ticket 23 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:26 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:26 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:26 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:29 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:29 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:29 AM TicketPool buyTicket
+INFO: Ticket 19 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:29 AM TicketPool buyTicket
+INFO: Ticket 20 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:06:29 AM TicketPool addTicket
+INFO: Ticket 24 added successfully. Available ticket count: 4
+Dec 12, 2024 11:06:29 AM TicketPool addTicket
+INFO: Ticket 25 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:30 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:30 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:30 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:33 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:33 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:33 AM TicketPool buyTicket
+INFO: Ticket 21 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:33 AM TicketPool buyTicket
+INFO: Ticket 22 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:06:33 AM TicketPool addTicket
+INFO: Ticket 26 added successfully. Available ticket count: 4
+Dec 12, 2024 11:06:33 AM TicketPool addTicket
+INFO: Ticket 27 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:34 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:34 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:34 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:37 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:37 AM TicketPool buyTicket
+INFO: Ticket 23 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:37 AM TicketPool addTicket
+INFO: Ticket 28 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:37 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:37 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:37 AM TicketPool buyTicket
+INFO: Ticket 24 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:37 AM TicketPool addTicket
+INFO: Ticket 29 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:38 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:38 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:38 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:41 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:41 AM TicketPool buyTicket
+INFO: Ticket 25 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:41 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:41 AM TicketPool addTicket
+INFO: Ticket 30 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:41 AM TicketPool buyTicket
+INFO: Ticket 26 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:41 AM TicketPool addTicket
+INFO: Ticket 31 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:42 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:42 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:42 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:45 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:45 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:45 AM TicketPool buyTicket
+INFO: Ticket 27 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:45 AM TicketPool buyTicket
+INFO: Ticket 28 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:06:45 AM TicketPool addTicket
+INFO: Ticket 32 added successfully. Available ticket count: 4
+Dec 12, 2024 11:06:45 AM TicketPool addTicket
+INFO: Ticket 33 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:46 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:46 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:46 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:49 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:49 AM TicketPool buyTicket
+INFO: Ticket 29 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:49 AM TicketPool addTicket
+INFO: Ticket 34 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:49 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:49 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:49 AM TicketPool buyTicket
+INFO: Ticket 30 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:49 AM TicketPool addTicket
+INFO: Ticket 35 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:50 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:50 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:50 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:53 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:53 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:53 AM TicketPool buyTicket
+INFO: Ticket 31 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:53 AM TicketPool buyTicket
+INFO: Ticket 32 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:06:53 AM TicketPool addTicket
+INFO: Ticket 36 added successfully. Available ticket count: 4
+Dec 12, 2024 11:06:53 AM TicketPool addTicket
+INFO: Ticket 37 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:54 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:54 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:54 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:57 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:06:57 AM TicketPool buyTicket
+INFO: Ticket 33 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:57 AM TicketPool addTicket
+INFO: Ticket 38 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:57 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:06:57 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:06:57 AM TicketPool buyTicket
+INFO: Ticket 34 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:06:57 AM TicketPool addTicket
+INFO: Ticket 39 added successfully. Available ticket count: 5
+Dec 12, 2024 11:06:58 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:06:58 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:06:58 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:01 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:01 AM TicketPool buyTicket
+INFO: Ticket 35 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:01 AM TicketPool addTicket
+INFO: Ticket 40 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:01 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:01 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:01 AM TicketPool buyTicket
+INFO: Ticket 36 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:01 AM TicketPool addTicket
+INFO: Ticket 41 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:02 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:02 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:02 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:05 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:05 AM TicketPool buyTicket
+INFO: Ticket 37 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:05 AM TicketPool addTicket
+INFO: Ticket 42 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:05 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:05 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:05 AM TicketPool buyTicket
+INFO: Ticket 38 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:05 AM TicketPool addTicket
+INFO: Ticket 43 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:06 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:06 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:06 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:09 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:09 AM TicketPool buyTicket
+INFO: Ticket 39 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:09 AM TicketPool addTicket
+INFO: Ticket 44 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:09 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:09 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:09 AM TicketPool buyTicket
+INFO: Ticket 40 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:09 AM TicketPool addTicket
+INFO: Ticket 45 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:10 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:10 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:10 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:13 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:13 AM TicketPool buyTicket
+INFO: Ticket 41 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:13 AM TicketPool addTicket
+INFO: Ticket 46 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:13 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:13 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:13 AM TicketPool buyTicket
+INFO: Ticket 42 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:13 AM TicketPool addTicket
+INFO: Ticket 47 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:14 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:14 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:14 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:17 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:17 AM TicketPool buyTicket
+INFO: Ticket 43 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:17 AM TicketPool addTicket
+INFO: Ticket 48 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:17 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:17 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:17 AM TicketPool buyTicket
+INFO: Ticket 44 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:17 AM TicketPool addTicket
+INFO: Ticket 49 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:18 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:18 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:18 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:21 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:21 AM TicketPool buyTicket
+INFO: Ticket 45 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:21 AM TicketPool addTicket
+INFO: Ticket 50 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:21 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:21 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:21 AM TicketPool buyTicket
+INFO: Ticket 46 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:21 AM TicketPool addTicket
+INFO: Ticket 51 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:22 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:22 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:22 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:25 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:25 AM TicketPool buyTicket
+INFO: Ticket 47 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:25 AM TicketPool addTicket
+INFO: Ticket 52 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:25 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:25 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:25 AM TicketPool buyTicket
+INFO: Ticket 48 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:25 AM TicketPool addTicket
+INFO: Ticket 53 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:26 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:26 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:26 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:29 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:29 AM TicketPool buyTicket
+INFO: Ticket 49 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:29 AM TicketPool addTicket
+INFO: Ticket 54 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:29 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:29 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:29 AM TicketPool buyTicket
+INFO: Ticket 50 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:29 AM TicketPool addTicket
+INFO: Ticket 55 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:30 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:30 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:30 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:33 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:33 AM TicketPool buyTicket
+INFO: Ticket 51 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:33 AM TicketPool addTicket
+INFO: Ticket 56 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:33 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:33 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:33 AM TicketPool buyTicket
+INFO: Ticket 52 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:33 AM TicketPool addTicket
+INFO: Ticket 57 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:34 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:34 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:34 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:37 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:37 AM TicketPool buyTicket
+INFO: Ticket 53 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:37 AM TicketPool addTicket
+INFO: Ticket 58 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:37 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:37 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:37 AM TicketPool buyTicket
+INFO: Ticket 54 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:37 AM TicketPool addTicket
+INFO: Ticket 59 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:38 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:38 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:38 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:41 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:41 AM TicketPool buyTicket
+INFO: Ticket 55 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:41 AM TicketPool addTicket
+INFO: Ticket 60 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:41 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:41 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:41 AM TicketPool buyTicket
+INFO: Ticket 56 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:41 AM TicketPool addTicket
+INFO: Ticket 61 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:42 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:42 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:42 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:45 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:45 AM TicketPool buyTicket
+INFO: Ticket 57 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:45 AM TicketPool addTicket
+INFO: Ticket 62 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:45 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:45 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:45 AM TicketPool buyTicket
+INFO: Ticket 58 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:45 AM TicketPool addTicket
+INFO: Ticket 63 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:46 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:46 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:46 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:49 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:49 AM TicketPool buyTicket
+INFO: Ticket 59 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:49 AM TicketPool addTicket
+INFO: Ticket 64 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:49 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:49 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:49 AM TicketPool buyTicket
+INFO: Ticket 60 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:49 AM TicketPool addTicket
+INFO: Ticket 65 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:50 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:50 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:50 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:53 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:53 AM TicketPool buyTicket
+INFO: Ticket 61 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:53 AM TicketPool addTicket
+INFO: Ticket 66 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:53 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:53 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:53 AM TicketPool buyTicket
+INFO: Ticket 62 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:53 AM TicketPool addTicket
+INFO: Ticket 67 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:54 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:54 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:54 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:07:57 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:07:57 AM TicketPool buyTicket
+INFO: Ticket 63 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:57 AM TicketPool addTicket
+INFO: Ticket 68 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:57 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:57 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:07:57 AM TicketPool buyTicket
+INFO: Ticket 64 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:07:57 AM TicketPool addTicket
+INFO: Ticket 69 added successfully. Available ticket count: 5
+Dec 12, 2024 11:07:58 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:07:58 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:07:58 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:01 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:01 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:01 AM TicketPool buyTicket
+INFO: Ticket 65 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:01 AM TicketPool buyTicket
+INFO: Ticket 66 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:08:01 AM TicketPool addTicket
+INFO: Ticket 70 added successfully. Available ticket count: 4
+Dec 12, 2024 11:08:01 AM TicketPool addTicket
+INFO: Ticket 71 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:02 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:02 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:02 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:05 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:05 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:05 AM TicketPool buyTicket
+INFO: Ticket 67 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:05 AM TicketPool buyTicket
+INFO: Ticket 68 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:08:05 AM TicketPool addTicket
+INFO: Ticket 72 added successfully. Available ticket count: 4
+Dec 12, 2024 11:08:05 AM TicketPool addTicket
+INFO: Ticket 73 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:06 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:06 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:06 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:09 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:09 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:09 AM TicketPool buyTicket
+INFO: Ticket 69 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:09 AM TicketPool buyTicket
+INFO: Ticket 70 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:08:09 AM TicketPool addTicket
+INFO: Ticket 74 added successfully. Available ticket count: 4
+Dec 12, 2024 11:08:09 AM TicketPool addTicket
+INFO: Ticket 75 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:10 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:10 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:10 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:13 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:13 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:13 AM TicketPool buyTicket
+INFO: Ticket 71 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:13 AM TicketPool buyTicket
+INFO: Ticket 72 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:08:13 AM TicketPool addTicket
+INFO: Ticket 76 added successfully. Available ticket count: 4
+Dec 12, 2024 11:08:13 AM TicketPool addTicket
+INFO: Ticket 77 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:14 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:14 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:14 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:17 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:17 AM TicketPool buyTicket
+INFO: Ticket 73 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:17 AM TicketPool addTicket
+INFO: Ticket 78 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:17 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:17 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:17 AM TicketPool buyTicket
+INFO: Ticket 74 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:17 AM TicketPool addTicket
+INFO: Ticket 79 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:18 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:18 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:18 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:21 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:21 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:21 AM TicketPool buyTicket
+INFO: Ticket 75 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:21 AM TicketPool buyTicket
+INFO: Ticket 76 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:08:21 AM TicketPool addTicket
+INFO: Ticket 80 added successfully. Available ticket count: 4
+Dec 12, 2024 11:08:21 AM TicketPool addTicket
+INFO: Ticket 81 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:22 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:22 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:22 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:25 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:25 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:25 AM TicketPool buyTicket
+INFO: Ticket 77 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:25 AM TicketPool buyTicket
+INFO: Ticket 78 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:08:25 AM TicketPool addTicket
+INFO: Ticket 82 added successfully. Available ticket count: 4
+Dec 12, 2024 11:08:25 AM TicketPool addTicket
+INFO: Ticket 83 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:26 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:26 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:26 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:29 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:29 AM TicketPool buyTicket
+INFO: Ticket 79 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:29 AM TicketPool addTicket
+INFO: Ticket 84 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:29 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:29 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:29 AM TicketPool buyTicket
+INFO: Ticket 80 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:29 AM TicketPool addTicket
+INFO: Ticket 85 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:30 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:30 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:30 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:33 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:33 AM TicketPool buyTicket
+INFO: Ticket 81 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:33 AM TicketPool addTicket
+INFO: Ticket 86 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:33 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:33 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:33 AM TicketPool buyTicket
+INFO: Ticket 82 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:33 AM TicketPool addTicket
+INFO: Ticket 87 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:34 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:34 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:34 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:37 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:37 AM TicketPool buyTicket
+INFO: Ticket 83 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:37 AM TicketPool addTicket
+INFO: Ticket 88 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:37 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:37 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:37 AM TicketPool buyTicket
+INFO: Ticket 84 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:37 AM TicketPool addTicket
+INFO: Ticket 89 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:38 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:38 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:38 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:41 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:41 AM TicketPool buyTicket
+INFO: Ticket 85 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:41 AM TicketPool addTicket
+INFO: Ticket 90 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:41 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:41 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:41 AM TicketPool buyTicket
+INFO: Ticket 86 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:41 AM TicketPool addTicket
+INFO: Ticket 91 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:42 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:42 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:42 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:45 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:45 AM TicketPool buyTicket
+INFO: Ticket 87 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:45 AM TicketPool addTicket
+INFO: Ticket 92 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:45 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:45 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:45 AM TicketPool buyTicket
+INFO: Ticket 88 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:45 AM TicketPool addTicket
+INFO: Ticket 93 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:46 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:46 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:46 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:49 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:49 AM TicketPool buyTicket
+INFO: Ticket 89 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:49 AM TicketPool addTicket
+INFO: Ticket 94 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:49 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:49 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:49 AM TicketPool buyTicket
+INFO: Ticket 90 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:49 AM TicketPool addTicket
+INFO: Ticket 95 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:50 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:50 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:50 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:53 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:53 AM TicketPool buyTicket
+INFO: Ticket 91 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:53 AM TicketPool addTicket
+INFO: Ticket 96 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:53 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:53 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:53 AM TicketPool buyTicket
+INFO: Ticket 92 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:53 AM TicketPool addTicket
+INFO: Ticket 97 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:54 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:54 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:54 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:08:57 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:08:57 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:08:57 AM TicketPool buyTicket
+INFO: Ticket 93 bought successfully. Remaining ticket count: 4
+Dec 12, 2024 11:08:57 AM TicketPool buyTicket
+INFO: Ticket 94 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:08:57 AM TicketPool addTicket
+INFO: Ticket 98 added successfully. Available ticket count: 4
+Dec 12, 2024 11:08:57 AM TicketPool addTicket
+INFO: Ticket 99 added successfully. Available ticket count: 5
+Dec 12, 2024 11:08:58 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:08:58 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:08:58 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:09:03 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:09:13 AM MainCLI setupConfiguration
+INFO: Configuration set up successfully.
+Dec 12, 2024 11:09:16 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 11:09:16 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:09:16 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:09:16 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:09:16 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:09:16 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:09:16 AM TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 11:09:16 AM TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 2
+Dec 12, 2024 11:09:16 AM TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:09:16 AM TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:09:17 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:09:17 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:09:17 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:09:17 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:09:17 AM TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 11:09:17 AM TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:09:17 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:09:17 AM TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 1
+Dec 12, 2024 11:09:17 AM TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:09:18 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:09:18 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:09:18 AM TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 1
+Dec 12, 2024 11:09:18 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:09:18 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:09:18 AM TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:09:18 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:09:18 AM TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 11:09:19 AM Vendor run
+INFO: Vendor 1 finished adding tickets.
+Dec 12, 2024 11:09:19 AM Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 11:09:19 AM Vendor run
+INFO: Vendor 2 finished adding tickets.
+Dec 12, 2024 11:28:29 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:33:08 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:33:17 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:33:37 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:33:47 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:34:13 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:35:14 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:37:03 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:37:22 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:37:35 AM MainCLI setupConfiguration
+INFO: Configuration set up successfully.
+Dec 12, 2024 11:39:33 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:42:53 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:42:57 AM MainCLI main
+INFO: Loading the configuration file...
+Dec 12, 2024 11:42:57 AM MainCLI loadFromJson
+INFO: Configuration loaded successfully from Config.json.
+Dec 12, 2024 11:49:19 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 11:49:19 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:49:19 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:49:19 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:49:19 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:49:19 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:49:19 AM TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 11:49:19 AM TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:49:19 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:49:19 AM TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 1
+Dec 12, 2024 11:49:19 AM TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:49:21 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:49:21 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:49:21 AM TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 11:49:21 AM TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 2
+Dec 12, 2024 11:49:22 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:49:22 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:49:22 AM TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:49:22 AM TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:49:22 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:49:22 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:49:22 AM TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 1
+Dec 12, 2024 11:49:22 AM TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 2
+Dec 12, 2024 11:49:23 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:49:23 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:49:23 AM TicketPool addTicket
+INFO: Ticket 7 added successfully. Available ticket count: 3
+Dec 12, 2024 11:49:23 AM TicketPool addTicket
+INFO: Ticket 8 added successfully. Available ticket count: 4
+Dec 12, 2024 11:49:24 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:49:24 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:49:24 AM TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:49:24 AM TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 11:49:24 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:49:24 AM TicketPool addTicket
+INFO: Ticket 9 added successfully. Available ticket count: 3
+Dec 12, 2024 11:49:24 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:49:24 AM TicketPool addTicket
+INFO: Ticket 10 added successfully. Available ticket count: 4
+Dec 12, 2024 11:49:25 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:49:25 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:49:25 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:49:26 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:49:26 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:49:26 AM TicketPool buyTicket
+INFO: Ticket 7 bought successfully. Remaining ticket count: 3
+Dec 12, 2024 11:49:26 AM TicketPool buyTicket
+INFO: Ticket 8 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 11:49:26 AM TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 11:49:26 AM TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 11:49:27 AM Vendor run
+INFO: Vendor 2 finished adding tickets.
+Dec 12, 2024 11:49:27 AM Vendor run
+INFO: Vendor 1 finished adding tickets.
+Dec 12, 2024 11:49:28 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:49:28 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:49:28 AM TicketPool buyTicket
+INFO: Ticket 9 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:49:28 AM TicketPool buyTicket
+INFO: Ticket 10 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:49:30 AM Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 11:49:30 AM Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 11:52:17 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:52:20 AM MainCLI main
+INFO: Loading the configuration file...
+Dec 12, 2024 11:52:20 AM MainCLI loadFromJson
+INFO: Configuration loaded successfully from Config.json.
+Dec 12, 2024 11:52:22 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 11:52:22 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:52:22 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:52:22 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:52:22 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:52:22 AM TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 11:52:22 AM TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 2
+Dec 12, 2024 11:52:22 AM TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:52:22 AM TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:52:23 AM MainCLI stopTicketingOperation
+INFO: Stopping ticket operations...
+Dec 12, 2024 11:52:23 AM MainCLI stopTicketingOperation
+INFO: Vendor and customer threads stopped.
+Dec 12, 2024 11:52:23 AM Customer run
+INFO: Customer interrupted, exiting...
+Dec 12, 2024 11:52:23 AM Customer run
+INFO: Customer interrupted, exiting...
+Dec 12, 2024 11:52:23 AM Vendor run
+INFO: Vendor 1 interrupted, exiting...
+Dec 12, 2024 11:52:23 AM Vendor run
+INFO: Vendor 2 interrupted, exiting...
+Dec 12, 2024 11:55:24 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:55:25 AM MainCLI main
+INFO: Loading the configuration file...
+Dec 12, 2024 11:55:25 AM MainCLI loadFromJson
+INFO: Configuration loaded successfully from Config.json.
+Dec 12, 2024 11:55:27 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 11:55:27 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:55:27 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:55:27 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:55:27 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:55:27 AM TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 11:55:27 AM TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:55:27 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:55:27 AM TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 1
+Dec 12, 2024 11:55:27 AM TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:55:28 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:55:28 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:55:28 AM TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 11:55:28 AM TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 2
+Dec 12, 2024 11:55:29 AM MainCLI stopTicketingOperation
+INFO: Stopping ticket operations...
+Dec 12, 2024 11:55:29 AM MainCLI stopTicketingOperation
+INFO: Vendor and customer threads stopped.
+Dec 12, 2024 11:55:29 AM Customer run
+INFO: Customer interrupted, exiting...
+Dec 12, 2024 11:55:29 AM Customer run
+INFO: Customer interrupted, exiting...
+Dec 12, 2024 11:55:29 AM Vendor run
+INFO: Vendor 1 interrupted, exiting...
+Dec 12, 2024 11:55:29 AM Vendor run
+INFO: Vendor 2 interrupted, exiting...
+Dec 12, 2024 11:57:11 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:57:25 AM MainCLI setupConfiguration
+INFO: Configuration set up successfully.
+Dec 12, 2024 11:57:28 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 11:57:28 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:57:28 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:57:28 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:57:28 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:57:28 AM TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 11:57:28 AM TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 2
+Dec 12, 2024 11:57:28 AM TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:57:28 AM TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:57:29 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:57:29 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:57:29 AM TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 11:57:29 AM TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 2
+Dec 12, 2024 11:57:30 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:57:30 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:57:30 AM TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 3
+Dec 12, 2024 11:57:30 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:57:31 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:57:33 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:57:33 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:57:33 AM TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 11:57:33 AM TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:57:33 AM TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 2
+Dec 12, 2024 11:57:33 AM TicketPool addTicket
+INFO: Ticket 7 added successfully. Available ticket count: 3
+Dec 12, 2024 11:57:34 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:57:34 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:57:34 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:57:38 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:57:38 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:57:38 AM TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 11:57:38 AM TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:57:38 AM TicketPool addTicket
+INFO: Ticket 8 added successfully. Available ticket count: 2
+Dec 12, 2024 11:57:38 AM TicketPool addTicket
+INFO: Ticket 9 added successfully. Available ticket count: 3
+Dec 12, 2024 11:57:39 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:57:39 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:57:39 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:57:43 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:57:43 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:57:43 AM TicketPool buyTicket
+INFO: Ticket 7 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 11:57:43 AM TicketPool buyTicket
+INFO: Ticket 8 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:57:43 AM TicketPool addTicket
+INFO: Ticket 10 added successfully. Available ticket count: 2
+Dec 12, 2024 11:57:43 AM TicketPool addTicket
+INFO: Ticket 11 added successfully. Available ticket count: 3
+Dec 12, 2024 11:57:44 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:57:44 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:57:44 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:57:48 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:57:48 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:57:48 AM TicketPool buyTicket
+INFO: Ticket 9 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 11:57:48 AM TicketPool buyTicket
+INFO: Ticket 10 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:57:48 AM TicketPool addTicket
+INFO: Ticket 12 added successfully. Available ticket count: 2
+Dec 12, 2024 11:57:48 AM TicketPool addTicket
+INFO: Ticket 13 added successfully. Available ticket count: 3
+Dec 12, 2024 11:57:49 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:57:49 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:57:49 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:57:53 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:57:53 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:57:53 AM TicketPool buyTicket
+INFO: Ticket 11 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 11:57:53 AM TicketPool buyTicket
+INFO: Ticket 12 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:57:53 AM TicketPool addTicket
+INFO: Ticket 14 added successfully. Available ticket count: 2
+Dec 12, 2024 11:57:53 AM TicketPool addTicket
+INFO: Ticket 15 added successfully. Available ticket count: 3
+Dec 12, 2024 11:57:54 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:57:54 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:57:54 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:57:58 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:57:58 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:57:58 AM TicketPool buyTicket
+INFO: Ticket 13 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 11:57:58 AM TicketPool buyTicket
+INFO: Ticket 14 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:57:58 AM TicketPool addTicket
+INFO: Ticket 16 added successfully. Available ticket count: 2
+Dec 12, 2024 11:57:58 AM TicketPool addTicket
+INFO: Ticket 17 added successfully. Available ticket count: 3
+Dec 12, 2024 11:57:59 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:57:59 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:57:59 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:58:03 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:58:03 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:58:03 AM TicketPool buyTicket
+INFO: Ticket 15 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 11:58:03 AM TicketPool buyTicket
+INFO: Ticket 16 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:58:03 AM TicketPool addTicket
+INFO: Ticket 18 added successfully. Available ticket count: 2
+Dec 12, 2024 11:58:03 AM TicketPool addTicket
+INFO: Ticket 19 added successfully. Available ticket count: 3
+Dec 12, 2024 11:58:04 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:58:04 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:58:04 AM TicketPool addTicket
+INFO: Queue is full. Vendor waiting...
+Dec 12, 2024 11:58:08 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:58:08 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:58:08 AM TicketPool buyTicket
+INFO: Ticket 17 bought successfully. Remaining ticket count: 2
+Dec 12, 2024 11:58:08 AM TicketPool buyTicket
+INFO: Ticket 18 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:58:08 AM TicketPool addTicket
+INFO: Ticket 20 added successfully. Available ticket count: 2
+Dec 12, 2024 11:58:08 AM TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 11:58:09 AM Vendor run
+INFO: Vendor 2 finished adding tickets.
+Dec 12, 2024 11:58:09 AM Vendor run
+INFO: Vendor 1 finished adding tickets.
+Dec 12, 2024 11:58:13 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:58:13 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:58:13 AM TicketPool buyTicket
+INFO: Ticket 19 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:58:13 AM TicketPool buyTicket
+INFO: Ticket 20 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:58:18 AM Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 11:58:18 AM Customer run
+INFO: No more tickets to remove. Customer stopping.
+Dec 12, 2024 11:59:29 AM MainCLI main
+INFO: Starting the application...
+Dec 12, 2024 11:59:46 AM MainCLI setupConfiguration
+INFO: Configuration set up successfully.
+Dec 12, 2024 11:59:47 AM MainCLI startTicketingOperation
+INFO: Ticket operations started.
+Dec 12, 2024 11:59:47 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:59:47 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:59:47 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:59:47 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:59:47 AM TicketPool addTicket
+INFO: Ticket 1 added successfully. Available ticket count: 1
+Dec 12, 2024 11:59:47 AM TicketPool buyTicket
+INFO: Ticket 1 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:59:47 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:59:47 AM TicketPool addTicket
+INFO: Ticket 2 added successfully. Available ticket count: 1
+Dec 12, 2024 11:59:47 AM TicketPool buyTicket
+INFO: Ticket 2 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:59:49 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:59:49 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:59:49 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:59:49 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:59:50 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:59:50 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:59:50 AM TicketPool addTicket
+INFO: Ticket 3 added successfully. Available ticket count: 1
+Dec 12, 2024 11:59:50 AM TicketPool addTicket
+INFO: Ticket 4 added successfully. Available ticket count: 2
+Dec 12, 2024 11:59:50 AM TicketPool buyTicket
+INFO: Ticket 3 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:59:50 AM TicketPool buyTicket
+INFO: Ticket 4 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:59:52 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:59:52 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:59:52 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:59:52 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:59:53 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:59:53 AM TicketPool addTicket
+INFO: Ticket 5 added successfully. Available ticket count: 1
+Dec 12, 2024 11:59:53 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:59:53 AM TicketPool buyTicket
+INFO: Ticket 5 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:59:53 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:59:53 AM TicketPool addTicket
+INFO: Ticket 6 added successfully. Available ticket count: 1
+Dec 12, 2024 11:59:53 AM TicketPool buyTicket
+INFO: Ticket 6 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:59:55 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:59:55 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:59:55 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:59:55 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:59:56 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:59:56 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:59:56 AM TicketPool addTicket
+INFO: Ticket 7 added successfully. Available ticket count: 1
+Dec 12, 2024 11:59:56 AM TicketPool buyTicket
+INFO: Ticket 7 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:59:56 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:59:56 AM TicketPool addTicket
+INFO: Ticket 8 added successfully. Available ticket count: 1
+Dec 12, 2024 11:59:56 AM TicketPool buyTicket
+INFO: Ticket 8 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 11:59:58 AM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 11:59:58 AM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 11:59:58 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:59:58 AM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 11:59:59 AM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 11:59:59 AM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 11:59:59 AM TicketPool addTicket
+INFO: Ticket 9 added successfully. Available ticket count: 1
+Dec 12, 2024 11:59:59 AM TicketPool addTicket
+INFO: Ticket 10 added successfully. Available ticket count: 2
+Dec 12, 2024 11:59:59 AM TicketPool buyTicket
+INFO: Ticket 9 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 11:59:59 AM TicketPool buyTicket
+INFO: Ticket 10 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:00:01 PM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 12:00:01 PM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 12:00:01 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:01 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:02 PM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 12:00:02 PM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 12:00:02 PM TicketPool addTicket
+INFO: Ticket 11 added successfully. Available ticket count: 1
+Dec 12, 2024 12:00:02 PM TicketPool buyTicket
+INFO: Ticket 11 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:00:02 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:02 PM TicketPool addTicket
+INFO: Ticket 12 added successfully. Available ticket count: 1
+Dec 12, 2024 12:00:02 PM TicketPool buyTicket
+INFO: Ticket 12 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:00:04 PM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 12:00:04 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:04 PM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 12:00:04 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:05 PM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 12:00:05 PM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 12:00:05 PM TicketPool addTicket
+INFO: Ticket 13 added successfully. Available ticket count: 1
+Dec 12, 2024 12:00:05 PM TicketPool addTicket
+INFO: Ticket 14 added successfully. Available ticket count: 2
+Dec 12, 2024 12:00:05 PM TicketPool buyTicket
+INFO: Ticket 13 bought successfully. Remaining ticket count: 1
+Dec 12, 2024 12:00:05 PM TicketPool buyTicket
+INFO: Ticket 14 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:00:07 PM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 12:00:07 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:07 PM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 12:00:07 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:08 PM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 12:00:08 PM TicketPool addTicket
+INFO: Ticket 15 added successfully. Available ticket count: 1
+Dec 12, 2024 12:00:08 PM TicketPool buyTicket
+INFO: Ticket 15 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:00:08 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:08 PM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 12:00:08 PM TicketPool addTicket
+INFO: Ticket 16 added successfully. Available ticket count: 1
+Dec 12, 2024 12:00:08 PM TicketPool buyTicket
+INFO: Ticket 16 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:00:10 PM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 12:00:10 PM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 12:00:10 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:10 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:11 PM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 12:00:11 PM TicketPool addTicket
+INFO: Ticket 17 added successfully. Available ticket count: 1
+Dec 12, 2024 12:00:11 PM TicketPool buyTicket
+INFO: Ticket 17 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:00:11 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:11 PM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 12:00:11 PM TicketPool addTicket
+INFO: Ticket 18 added successfully. Available ticket count: 1
+Dec 12, 2024 12:00:11 PM TicketPool buyTicket
+INFO: Ticket 18 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:00:13 PM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 12:00:13 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:13 PM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 12:00:13 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:14 PM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 12:00:14 PM TicketPool addTicket
+INFO: Ticket 19 added successfully. Available ticket count: 1
+Dec 12, 2024 12:00:14 PM TicketPool buyTicket
+INFO: Ticket 19 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:00:14 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:14 PM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 12:00:14 PM TicketPool addTicket
+INFO: Ticket 20 added successfully. Available ticket count: 1
+Dec 12, 2024 12:00:14 PM TicketPool buyTicket
+INFO: Ticket 20 bought successfully. Remaining ticket count: 0
+Dec 12, 2024 12:00:16 PM Customer run
+INFO: Customer 2 removing ticket...
+Dec 12, 2024 12:00:16 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:16 PM Customer run
+INFO: Customer 1 removing ticket...
+Dec 12, 2024 12:00:16 PM TicketPool buyTicket
+INFO: Queue is empty, customer waiting...
+Dec 12, 2024 12:00:17 PM Vendor run
+INFO: Vendor 2 adding ticket...
+Dec 12, 2024 12:00:17 PM Vendor run
+INFO: Vendor 1 adding ticket...
+Dec 12, 2024 12:00:17 PM TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 12:00:17 PM TicketPool addTicket
+INFO: No more tickets to add.
+Dec 12, 2024 12:00:20 PM Vendor run
+INFO: Vendor 2 finished adding tickets.
+Dec 12, 2024 12:00:20 PM Vendor run
+INFO: Vendor 1 finished adding tickets.
